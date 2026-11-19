@@ -5044,7 +5044,7 @@
     "_items": [
       {
         "frontImage": {
-          "src": "course/en/images/M1/u3_card_nociceptive.png",
+          "src": "course/en/images/M1/u3_card_nociceptive.jpg",
           "alt": "Nociceptive Pain"
         },
         "backTitle": "Nociceptive Pain",
@@ -5052,7 +5052,7 @@
       },
       {
         "frontImage": {
-          "src": "course/en/images/M1/u3_card_neuropathic.png",
+          "src": "course/en/images/M1/u3_card_neuropathic.jpg",
           "alt": "Neuropathic"
         },
         "backTitle": "Neuropathic",
@@ -6487,7 +6487,7 @@
       },
       {
         "frontImage": {
-          "src": "course/en/images/M2/u4_card_permeation.png",
+          "src": "course/en/images/M2/u4_card_permeation.jpg",
           "alt": ""
         },
         "backTitle": "",
