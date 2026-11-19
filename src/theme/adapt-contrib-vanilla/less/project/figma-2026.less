@@ -346,3 +346,9 @@
 .no-orphans .verticalitems__item__content-body {
   text-wrap: pretty;
 }
+
+// Course-wide: avoid single-word last lines (orphans). Inherited, so it covers all text, popups and interactions.
+// Supported by Chrome/Edge 117+ and Safari 26+; other browsers ignore it and wrap normally.
+html {
+  text-wrap: pretty;
+}
