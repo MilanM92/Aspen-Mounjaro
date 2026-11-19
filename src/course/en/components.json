@@ -4342,7 +4342,7 @@
     "_parentId": "b-390",
     "_type": "component",
     "_component": "verticalItems",
-    "_classes": "sub-title-p",
+    "_classes": "sub-title-p vi-start-right",
     "_layout": "full",
     "title": "",
     "displayTitle": "",
