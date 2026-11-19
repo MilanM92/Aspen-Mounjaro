@@ -3093,7 +3093,7 @@
     "_parentId": "b-276",
     "_type": "component",
     "_component": "verticalItems",
-    "_classes": "sub-title-p",
+    "_classes": "sub-title-p no-orphans",
     "_layout": "full",
     "title": "",
     "displayTitle": "",
@@ -3103,7 +3103,7 @@
     "_items": [
       {
         "title": "",
-        "body": "This process starts with the opening of a sodium channel. This usually occurs when a neurotransmitter binds to receptors on the neuron’s dendrites. The sodium channels in the axon hillock open, and because of the higher concentration of Na+ outside the cell, there is an influx of sodium takes into the cell down the concentration gradient. Sodium ions carry a positive charge, so the potential within the cell approaches 0. This is known as depolarisation.",
+        "body": "This process starts with the opening of a sodium channel. This usually occurs when a neurotransmitter binds to receptors on the neuron’s dendrites. The sodium channels in the axon hillock open, and because of the higher concentration of Na+ outside the cell, there is an influx of sodium takes into the cell down the concentration gradient. Sodium ions carry a positive charge, so the potential within the cell approaches 0. This is known as&nbsp;depolarisation.",
         "_icon": {
           "src": "",
           "_classes": "",
@@ -3129,7 +3129,7 @@
       },
       {
         "title": "",
-        "body": "As the membrane potential approaches +30mV, the potassium channels within the membrane open. Due to the concentration gradient, the potassium ions (K+) start to leave the cell and take the positive charge with them. The membrane potential starts to approach 0 again. This is called repolarisation and describes the membrane potential moving back towards the resting potential of -70mV.",
+        "body": "As the membrane potential approaches +30mV, the potassium channels within the membrane open. Due to the concentration gradient, the potassium ions (K+) start to leave the cell and take the positive charge with them. The membrane potential starts to approach 0 again. This is called repolarisation and describes the membrane potential moving back towards the resting potential of&nbsp;-70mV.",
         "_icon": {
           "src": "",
           "_classes": "",

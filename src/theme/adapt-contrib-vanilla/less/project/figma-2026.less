@@ -341,3 +341,8 @@
     display: block;
   }
 }
+
+// Avoid single-word last lines (browsers without support simply ignore it)
+.no-orphans .verticalitems__item__content-body {
+  text-wrap: pretty;
+}
