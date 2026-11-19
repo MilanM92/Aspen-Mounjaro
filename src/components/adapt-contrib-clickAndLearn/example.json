@@ -1,0 +1,92 @@
+{
+        "_id":"c-2-50-b",
+        "_parentId":"b-2-50-b",
+        "_type": "component",
+        "_component": "clickAndLearn",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Clickable Icons (Vertical)",
+        "displayTitle": "Clickable Icons (Vertical)",
+        "body": "This is an excellent example of a  <strong>Click and Learn</strong> component that displays five  icons arranged horizontally. On clicking these icons, the corresponding content for each icon is presented vertically in a box below the icon. It includes an optional body text above the clickable icons.<br>On <strong>tablet devices</strong>, the component resizes without any changes in layout.<br>On <strong>smartphones</strong>, the content for each icon is presented in an overlapping pop up box.",
+        "instruction": "Click each icon to learn more.",
+        "mobileInstruction": "Select each icon to learn more.",
+        "_itemWidth":23,
+        "_items": [
+            {
+                "title": "Item 1 icon",
+                "body": "Item 1 content",
+                "_graphic": {
+                    "src": "course/en/images/single_width.jpg",
+                    "alt": "info about First card."
+                }
+            },
+            {
+                "title": "Item 2 icon",
+                "body": "Item 2 content",
+                "_graphic": {
+                    "src": "course/en/images/single_width.jpg",
+                    "alt": "info about Second card."
+                }
+            },
+            {
+                "title": "Item 3 icon",
+                "body": "Item 3 content",
+                "_graphic": {
+                    "src": "course/en/images/single_width.jpg",
+                    "alt": "info about Third card."
+                }
+            },
+            {
+                "title": "Item 4 icon",
+                "body": "Item 4 content",
+                "_graphic": {
+                    "src": "course/en/images/single_width.jpg",
+                    "alt": "info about Fourth card."
+                }
+            },
+            {
+                "title": "Item 5 icon",
+                "body": "Item 5 content",
+                "_graphic": {
+                    "src": "course/en/images/single_width.jpg",
+                    "alt": "info about Fourth card."
+                }
+            }
+        ],
+        "_flag": "horizontal"
+      }
+
+{
+    "_id": "c-20",
+    "_parentId": "b-20",
+    "_type": "component",
+    "_component": "clickAndLearn",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Click And Learn",
+    "body": "This is optional body text. Click the image below to reveal the text.",
+    "displayTitle": "ClickAndLearn",
+    "instruction": "",
+    "_items": [
+        {
+            "title": "What is a component?",
+            "body": "In Adapt we have a concept of components. These components are the main interactive elements found on a page. (Multiple Choice Question, Media, Text and Narrative are all types of components). These components can be split into two categories.",
+            "_graphic": {
+                "src": "course/en/images/click_1.png",
+                "alt": "info about first card."
+            }
+        },
+        {
+            "title": "Presentational components",
+            "body": "A presentational component should be used to display content with little interactivity. A few components that full under this category are: Graphic, Media, Hot Graphic and Narrative.",
+            "_graphic": {
+                "src": "course/en/images/click_2.png",
+                "alt": "info about second card."
+            }
+        }
+    ],
+    "_flag": "vertical"
+}
+
+
+//_flag accepts 'horizontal' and 'vertical'

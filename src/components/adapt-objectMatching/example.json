@@ -1,0 +1,119 @@
+{
+    "_id":"c-3-30-c",
+    "_parentId":"b-3-30-c",
+      "_type": "component",
+    "_component": "objectMatching",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight": 1,
+    "_isRandom": true,
+    "_canShowModelAnswer": true,
+    "_recordInteraction": false,
+    "title": "Object Matching Question",
+    "displayTitle": "Object Matching Question",
+    "body": "The <strong>Object Matching Question</strong> component lets the learner match the columns by individually selecting the options and its corresponding category in succession. After selecting <strong>Submit</strong>, feedback is provided based on the answer submitted. The <strong>Show feedback</strong> button reiterates the same feedback upon selection. For an incorrect or partially correct attempt, the correct answers and the submitted answers can be viewed by toggling between <strong>Correct Answer</strong> and<strong> My Answer</strong>.<br>On <strong>tablets</strong> and <strong>smartphones</strong>, this component simply resizes with no change in layout.",
+    "instruction": "Select the options, match it to the correct category and select <strong>Submit.</strong>",
+    "_defaultWidth": 120,
+    "_defaultHeight": 120,
+    "_draggableItems": [
+      {
+        "id": "drag-01",
+        "title": "A",
+        "body": "Option 1",
+        "_graphic": {
+          "src": "",
+          "alt": "One"
+        }
+      },
+      {
+        "id": "drag-02",
+        "title": "B",
+        "body": "Option 2",
+        "_graphic": {
+          "src": "",
+          "alt": "Two"
+        }
+      },
+      {
+        "id": "drag-03",
+        "title": "C",
+        "body": "Option 3",
+        "_graphic": {
+          "src": "",
+          "alt": "Three"
+        }
+      }
+    ],
+    "_droppableItems": [
+      {
+        "id": "drop-01",
+        "title": "Category 1",
+        "body": "Category 1",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "correctItemId": "drag-01"
+      },
+      {
+        "id": "drop-02",
+        "title": "Category 2",
+        "body": "Category 2",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "correctItemId": "drag-02"
+      },
+      {
+        "id": "drop-03",
+        "title": "Category 3",
+        "body": "Category 3",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "correctItemId": "drag-03"
+      }
+    ],
+    "_feedback": {
+      "correct": "Congratulations, this is the correct feedback.",
+      "_incorrect": {
+        "notFinal": "",
+        "final": "This feedback will appear if you answered the question incorrectly."
+      },
+      "_partlyCorrect": {
+        "notFinal": "",
+        "final": "This feedback will appear if you answered the question correctly."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Show feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  }

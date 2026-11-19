@@ -1,0 +1,67 @@
+{{import_globals}}
+
+<div class="menu__inner boxmenu__inner">
+
+  {{#any displayTitle subtitle body instruction}}
+  <div class="menu__header boxmenu__header">
+    <div class="menu__header-inner boxmenu__header-inner">
+
+      {{#if _boxMenu._graphic}}
+      <div class="menu__image-container boxmenu__image-container">
+        <img class="menu__image boxmenu__image" src="{{_boxMenu._graphic._src}}"{{#if _boxMenu._graphic.alt}} alt="{{_boxMenu._graphic.alt}}"{{/if}}{{#unless _boxMenu._graphic.alt}} aria-hidden="true"{{/unless}}>
+      </div>
+      {{/if}}
+
+      {{#if displayTitle}}
+      <div class="menu__title boxmenu__title">
+        <div class="menu__title-inner boxmenu__title-inner js-heading"></div>
+      </div>
+      {{/if}}
+
+      {{#if subtitle}}
+      <div class="menu__subtitle boxmenu__subtitle">
+        <div class="menu__subtitle-inner boxmenu__subtitle-inner">
+          {{{compile subtitle}}}
+        </div>
+      </div>
+      {{/if}}
+
+      {{#if body}}
+      <div class="menu__body boxmenu__body">
+        <div class="menu__body-inner boxmenu__body-inner">
+          {{{compile body}}}
+        </div>
+      </div>
+      {{/if}}
+
+      {{#if instruction}}
+      <div class="menu__instruction boxmenu__instruction">
+        <div class="menu__instruction-inner boxmenu__instruction-inner">
+          {{{compile instruction}}}
+        </div>
+      </div>
+      {{/if}}
+
+    </div>
+  </div>
+  {{/any}}
+
+  <div class="menu__item-container boxmenu__item-container">
+    <div class="menu__item-container-inner boxmenu__item-container-inner js-children" role="list">
+      {{!-- Menu items render here --}}
+    </div>
+  </div>
+<div>
+  
+</div>
+
+
+
+ {{#if notes}}
+  <div class="menu__item-notes boxmenu__item-notes">
+    <div class="menu__item-notes-inner boxmenu__item-notes-inner" >
+     {{{compile notes}}}
+    </div>
+  </div>
+{{/if}}
+</div>

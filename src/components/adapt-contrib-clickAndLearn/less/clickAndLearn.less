@@ -1,0 +1,230 @@
+@dark-grey: #4b4a4e;
+@reveal-box-lighter:#ebebeb;
+.clickAndLearn-component {
+
+  .clickAndLearn-widget {
+    .clickAndLearn-navContainer {
+      list-style: none;
+
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+
+      .clickAndLearn-indicator {
+        background-color:white;
+        list-style: none;
+        color:white;
+        border:3px solid @blue;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        
+        &:hover{
+          //background-color:white;
+        }
+
+        .clickAndLearn-text{
+        text-align: center;
+        font-weight: bold;
+        //padding-top: 5px;
+      }
+      img{
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+      }
+       &.visited {
+            color:black;
+            background-color: #e9e9e9;
+            cursor: default;
+        }
+      }
+    }
+
+    &.clickAndLearn-horizontal {
+      .clickAndLearn-content {
+        /*float:left;*/
+        display:inline-block;
+        //margin-left: 1%;
+        width:17%;
+        @media (max-width:520px){
+          width:48% !important;
+        }
+        .clickAndLearn-navContainer {
+          li {
+            width:100%;
+            display: inline-block;
+            padding: 30px;
+            margin-bottom: 0;
+            margin-left: 0px;
+          }
+        }
+
+        .clickAndLearn-tabViewContainer {
+          /*margin-top: 5px;*/
+          margin-top: 0;
+         
+
+          .clickAndLearn-tab {
+            float:left;
+            display: block;
+            width:100%;
+              height: 100%;
+            .clickAndLearn-tabItem {
+              width:auto;
+            }
+          }
+        }
+      }
+    }
+
+   
+&.clickAndLearn-vertical {
+
+      .clickAndLearn-content{
+        margin:2px auto;
+      }
+      .clickAndLearn-navContainer {
+        display: inline-block;
+        width: 20%;
+        margin-right: 5px;
+
+        li {
+          margin-bottom: 3px;
+          margin-left: 0px;
+
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+
+      .clickAndLearn-tabViewContainer {
+        /*display: inline-block;*/
+        width: 79%;
+        height: auto;
+        float: right;
+        //vertical-align: top;
+
+        .clickAndLearn-tabItem {
+          margin-top: 0;
+        }
+      }
+    } 
+
+  }
+
+  .clickAndLearn-tabViewContainer {
+    .clickAndLearn-tabItem {
+      width: auto;
+      display: none;
+      background-color: @blue;
+      padding: 15px;
+      color: white;
+      min-height: 377px;
+    }
+
+    .clickAndLearn-tabItem:after {
+      margin-left: 1em
+    }
+
+    .clickAndLearn-tabView-title {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 18px;
+      color: @blue;
+      font-weight: bold;
+      @media screen and(max-width:1024px) and (min-width:768px){
+      margin-bottom: 0px;
+      }
+    }
+
+    .clickAndLearn-tabView-body {
+      display: block;
+      margin-top: 5px;
+      //font-size: @font-size;
+      color: black;
+    }
+  }
+
+  .clickAndLearn-popup {
+    height: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    background-color: @blue;
+    color:black;
+    border: none;
+
+    .clickAndLearn-popup-inner {
+      padding: 1em;
+
+      .clickAndLearn-popup-toolbar-title {
+        width: 80%;
+        margin-bottom: 10px;
+        float: left;
+      }
+
+      .clickAndLearn-popup-body {
+        overflow-y: auto;
+      }
+
+
+      .clickAndLearn-popup-close {
+        display: inline-block;
+        float: right;
+        color: @blue;
+        .icon {
+          color:black;
+        }
+      }
+    }
+  }
+
+}
+
+.no-touch {
+  .clickAndLearn-navContainer {
+    .clickAndLearn-indicator:hover {
+      cursor: pointer;
+      /*background-color: @secondary-color;*/
+    }
+  }
+
+  .clickAndLearn-popup-close {
+    .icon:hover {
+      color: lighten(black, 30%);
+    }
+  }
+}
+.horizontal-blank-bg{
+  .clickAndLearn-component {
+    .clickAndLearn-tabViewContainer {
+      .clickAndLearn-tabItem{
+            background-color: rgba(3, 193, 241, 0);
+      }
+    }
+  }
+}
+@media (max-width:768px){
+    .clickAndLearn-tabViewContainer {
+      .clickAndLearn-tabItem {
+        //min-height: 320px;
+      }
+      .clickAndLearn-tabView-title{
+          font-size: 14px !important;
+      }
+      .clickAndLearn-tabView-body{
+          font-size: 13px !important;
+      }
+    }
+}
+
+
+

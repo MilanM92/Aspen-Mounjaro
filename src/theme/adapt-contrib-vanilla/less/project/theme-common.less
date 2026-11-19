@@ -1,0 +1,428 @@
+// --------------------------------------------------
+// Common
+// --------------------------------------------------
+
+// Background color mixin
+// Can be added to course, contentObject, article, block, or component to enable
+// e.g. 'bg-color black'
+// Note: both arguments must be predefined variables
+// --------------------------------------------------
+.bg-color-mixin(black, white);
+.bg-color-mixin(background, background-inverted);
+.bg-color-mixin(transparent-light, black);
+.bg-color-mixin(transparent-dark, white);
+
+.bg-color-mixin(@color, @color-inverted) {
+
+.bg-color.@{color} {
+  background-color: @@color;
+  color: @@color-inverted;
+
+  .block,
+  .component {
+    &__title,
+    &__body a,
+    &__instruction a {
+      color: @@color-inverted;
+    }
+  }
+
+  .pagelevelprogress {
+    &__indicator {
+      border-color: @@color-inverted;
+    }
+    &__indicator-inner {
+      background-color: @@color;
+    }
+    &__indicator-bar {
+      background-color: @@color-inverted;
+    }
+  }
+
+  .narrative {
+    &__progress {
+      background-color: fade(@@color-inverted, 50%);
+    }
+
+    &__progress.is-selected {
+      background-color: @@color-inverted;
+    }
+  }
+}
+
+}
+
+// styles associated with _textAlignment property
+// --------------------------------------------------
+.text-align-mixin(page);
+.text-align-mixin(article);
+.text-align-mixin(block);
+.text-align-mixin(component);
+
+.text-align-mixin(@selector) {
+
+.@{selector} {
+  &.title-align-left &__title,
+  &.body-align-left &__body,
+  &.instruction-align-left &__instruction {
+    text-align: left;
+
+    .dir-rtl & {
+      text-align: right;
+    }
+  }
+
+  &.title-align-center &__title,
+  &.body-align-center &__body,
+  &.instruction-align-center &__instruction {
+    text-align: center;
+  }
+
+  &.title-align-right &__title,
+  &.body-align-right &__body,
+  &.instruction-align-right &__instruction {
+    text-align: right;
+
+    .dir-rtl & {
+      text-align: left;
+    }
+  }
+}
+
+}
+
+// classes to hide content above / below medium breakpoint
+// --------------------------------------------------
+.hide-on-desktop {
+  @media (min-width: @device-width-medium) {
+    display: none;
+  }
+}
+
+.hide-on-mobile {
+  @media (max-width: @device-width-medium) {
+    display: none;
+  }
+}
+/*Custom code*/
+html{
+  overflow-x: hidden;
+}
+
+.page__header{
+  display: none ;
+}
+
+.location-id-course .nav{
+  display: none;
+}
+
+html.is-nav-top #wrapper{
+  padding: 0;
+}
+
+ /*Nav*/
+
+ .nav{
+  background: rgba(17, 173, 239, 0.2);
+  backdrop-filter: blur(7px) !important;
+ }
+.nav__back-btn{
+  background: transparent
+}
+
+.nav__back-btn .icon:before {
+  content: "\e96b";
+  font-size: 2em;
+  color: #003689;
+}
+ .no-touch .nav__btn:not(.is-disabled):not(.is-locked):hover{
+  background: rgba(17, 173, 239, 0.2);
+ }
+
+.nav__drawer-btn{
+  background: transparent;
+}
+.nav__drawer-btn .icon:before {
+  content: "\e94d";
+  color: #003689;
+  font-size: 2em;
+}
+
+.drawer__inner,
+.drawer__item-btn{
+  background-color: #003689;
+  color: #4FCBFF
+}
+.drawer__close-btn{
+  background-color: transparent;
+}
+.shadow{
+  background: rgba(255, 255, 255, 0.8);
+ backdrop-filter: blur(3px);
+}
+
+.nav__pagelevelprogress-btn{
+  background-color: transparent;
+}
+
+.pagelevelprogress__nav-btn .pagelevelprogress__indicator,
+.drawer__item-btn .pagelevelprogress__indicator{
+  border-color: transparent;
+  border-radius: 0;
+}
+.pagelevelprogress__nav-btn .pagelevelprogress__indicator-inner
+{
+  background-color: white;
+}
+.pagelevelprogress__nav-btn .pagelevelprogress__indicator-bar
+{
+  background-color: @blue !important;
+}
+.drawer__item-btn .pagelevelprogress__indicator-bar
+{
+  background-color: @lightBlue !important
+}
+.pagelevelprogress__item-btn:not(.is-disabled) .pagelevelprogress__indicator-inner{
+  background-color: white;
+}
+
+.drawer .pagelevelprogress__item-btn{
+  flex-direction: row-reverse;
+}
+
+.small-padding .block__inner {
+  padding: 0rem 0.5rem;
+}
+
+.next a,
+.retake-module a{
+  text-decoration: none;
+  color: white !important;
+}
+.sub-title-p .component__body{
+  padding-top: 1.5em;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .boxmenu__item-container .boxmenu__item-container-inner {
+    display: flex;
+    flex-wrap: wrap !important;
+    margin: 0 auto;
+    max-width: 40rem !important;
+  }
+  .c-m2-285 .matching__widget{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .c-m2-330 .groupitems__widget{
+    grid-template-columns: 0fr 1fr;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .dragndrop__inner .dragndrop-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .verticalitems__item .verticalitems__item-icon {
+    border-radius: 50% !important;
+
+  }
+  .tabs__content-inner {
+    padding: 1rem 1rem 5rem 1rem;
+ }
+ .pagenav__btn::before,
+ .pagenav__btn::after{
+  display: none;
+ }
+ .selectchoice__item-icon .icon{
+  background-color: transparent !important;
+ }
+
+ .c-40 .tabs__content-item__image{
+  margin: 0 !important;
+ }
+
+ .c-30 .flipper-container{
+  grid-template-columns: 1fr !important;
+ }
+ .c-30 .image-container img{
+  display: none !important;
+ }
+ .c-m2-40 .tabs__content-item__image{
+  margin: 0 !important;
+ }
+
+ .c-m2-30 .flipper-container{
+  grid-template-columns: 1fr !important;
+ }
+ .c-m2-30 .image-container img{
+  display: none !important;
+ }
+
+}
+
+
+@media only screen and (max-width: 750px) {
+  .boxmenu__item-container .boxmenu__item-container-inner {
+    max-width: 20rem !important;
+  }
+  .tabs__content-inner {
+    padding: 1rem 1rem 5rem 1rem;
+ }
+ 
+
+}
+
+@media only screen and (max-width: 550px) {
+  .flipper-item{
+    max-height: 350px !important;
+  }
+  .title{
+    font-size: 2.75rem !important;
+  }
+  .item__state{
+    width: 1.4rem !important;
+  }
+  .slideritems__container-items{
+    flex-direction: column;
+  }
+  .flex__widget {
+    max-height: 750px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+ 
+
+  .c-330 .groupitems__widget{
+    grid-template-columns: 0fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .bg-center{
+    background-size: cover;
+  }
+  .bg-left{
+    background-size: cover;
+  }
+}
+
+/*Headline in navbar*/
+
+.navigation-label{
+  width: 100% !important;
+  margin: 0 auto !important;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.location-id-co-10 .m1-title,
+.location-id-co-10 .m2-title,
+.location-id-co-10 .m3-title,
+.location-id-co-10 .m4-title,
+.location-id-co-10 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+.location-id-co-20 .m1-title,
+.location-id-co-20 .m2-title,
+.location-id-co-20 .m3-title,
+.location-id-co-20 .m4-title,
+.location-id-co-20 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+.location-id-co-30 .m1-title,
+.location-id-co-30 .m2-title,
+.location-id-co-30 .m3-title,
+.location-id-co-30 .m4-title{
+  display: none;
+  background-color: transparent;
+}
+.location-id-co-45 .m1-title,
+.location-id-co-45 .m2-title,
+.location-id-co-45 .m3-title,
+.location-id-co-45 .m4-title{
+  display: none;
+  background-color: transparent;
+}
+
+.location-id-co-05 .m2-title,
+.location-id-co-05 .m3-title,
+.location-id-co-05 .m4-title,
+.location-id-co-05 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+
+.location-id-co-15 .m1-title,
+.location-id-co-15 .m3-title,
+.location-id-co-15 .m4-title,
+.location-id-co-15 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+
+.location-id-co-25 .m1-title,
+.location-id-co-25 .m2-title,
+.location-id-co-25 .m4-title,
+.location-id-co-25 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+.location-id-co-30 .m1-title,
+.location-id-co-30 .m2-title,
+.location-id-co-30 .m3-title,
+.location-id-co-30 .m4-title,
+.location-id-co-30 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+.location-id-co-45 .m1-title,
+.location-id-co-45 .m2-title,
+.location-id-co-45 .m3-title,
+.location-id-co-45 .m4-title,
+.location-id-co-45 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+.location-id-co-55 .m1-title,
+.location-id-co-55 .m2-title,
+.location-id-co-55 .m3-title,
+.location-id-co-55 .m4-title,
+.location-id-co-55 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+.location-id-co-40 .m1-title,
+.location-id-co-40 .m2-title,
+.location-id-co-40 .m3-title,
+.location-id-co-40 .m5-title{
+  display: none;
+  background-color: transparent;
+}
+.location-id-co-50 .m1-title,
+.location-id-co-50 .m2-title,
+.location-id-co-50 .m3-title,
+.location-id-co-50 .m4-title{
+  display: none;
+  background-color: transparent;
+}
+
+.tr {
+  border-bottom: 2px solid #11ADEF;
+}
+thead tr {
+  background: #ebf7fb;
+}
+/*.assesment{
+  display: none;
+}*/

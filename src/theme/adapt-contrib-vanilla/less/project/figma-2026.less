@@ -1,0 +1,317 @@
+// EMLA update 2026-11 – blocks restyled to the UI Figma (file "Aspen. Emla", page "2026").
+// Every rule is scoped to a figma-* class added in _work/patches/w7_figma.js, so the rest of the course is unchanged.
+// Figma tokens: heading #003689, body #11326B (@blue), band #EBF7FB (@paleBlue), accent #DA291C (@red), button #11ADEF (@lightBlue).
+
+@figma-heading: #003689;
+
+// ---------- Section header: "EMLA" eyebrow + 54px title (slides 7 and 48) ----------
+.figma-header .block__inner {
+  padding: 6.25rem 0.5rem 3rem;
+}
+.figma-header--band .block__inner {
+  padding-bottom: 5rem;
+}
+.figma-eyebrow {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  font-weight: 700;
+  color: @figma-heading;
+  text-transform: uppercase;
+}
+.figma-title {
+  display: block;
+  color: @figma-heading;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+.figma-header .component__body {
+  margin-top: 1.5rem;
+}
+.figma-header .component__body,
+.figma-band .component__body {
+  color: @blue;
+  line-height: 1.625rem;
+}
+
+// ---------- Sub headings ----------
+.figma-subhead {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 1.1875rem;
+  line-height: 1.625rem;
+  font-weight: 700;
+  color: @blue;
+}
+.figma-h2 {
+  display: block;
+  font-size: 2.125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: @figma-heading;
+}
+.figma-underline {
+  position: relative;
+  padding-bottom: 1.75rem;
+  color: @figma-heading;
+  font-weight: 600;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 203px;
+    height: 3px;
+    background-color: @red;
+  }
+}
+
+// ---------- Flow items in pale-blue boxes with an "n/total" counter (slide 7) ----------
+.figma-flow {
+  .flowitems__container-items {
+    counter-reset: figma-flow;
+  }
+  .flowitems__flow {
+    counter-increment: figma-flow;
+  }
+  .flowitems__flow-item {
+    position: relative;
+    padding: 1.5625rem 6rem 2.5rem 1.25rem;
+    background-color: @paleBlue;
+    color: @blue;
+    line-height: 1.625rem;
+    &::after {
+      content: counter(figma-flow) '/2';
+      position: absolute;
+      top: 1.5625rem;
+      right: 2.5rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: @figma-heading;
+      opacity: 0.5;
+    }
+  }
+  .flowitems__flow + .flowitems__flow {
+    margin-top: 1rem;
+  }
+  .flowitems__progress {
+    display: none;
+  }
+  .flowitems__footer {
+    margin-top: 1.125rem;
+  }
+  .flowitems__next {
+    padding: 0.8125rem 2.875rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 1.4375rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+  }
+}
+
+// ---------- Pale-blue band behind the thin/thick skin images (slide 7) ----------
+.figma-band--top .block__inner {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+.figma-band--bottom .block__inner {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+.figma-band .graphic__attribution {
+  padding-top: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  color: @blue;
+}
+
+// ---------- Narrative: image left-aligned, arrows on the image edges, text directly under it (slide 48) ----------
+.figma-narrative {
+  .component__instruction {
+    margin-top: 1.5rem;
+  }
+  .narrative__widget {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .narrative__slide-container {
+    width: 75%;
+    margin: 0;
+    overflow: visible;
+  }
+  .narrative__controls {
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    border-radius: 0;
+  }
+  .narrative__controls-left {
+    left: -25px;
+    background-color: #ffffff;
+    color: @figma-heading;
+    border: 1px solid #d0d7e2;
+    &.is-disabled {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .narrative__controls-right {
+    right: -25px;
+    background-color: @lightBlue;
+    color: #ffffff;
+  }
+  .narrative__content {
+    width: 75% !important;
+    padding: 1.25rem 0 0;
+    color: @figma-heading;
+    line-height: 1.625rem;
+  }
+  .narrative__content-inner {
+    padding: 0;
+  }
+}
+
+// ---------- Dosing tables (slides 138 and 139) ----------
+.figma-dosing {
+  .component__title .figma-h2 + .figma-subhead {
+    margin-top: 2.25rem;
+  }
+  .dosing-table {
+    width: 100%;
+    margin-top: 2.5rem;
+    border-collapse: collapse;
+    color: @figma-heading;
+    tr {
+      border-bottom: 1px solid @lightBlue;
+    }
+    th,
+    td {
+      padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+      text-align: left;
+      vertical-align: top;
+      font-size: 1.1875rem;
+      line-height: 1.625rem;
+    }
+    th {
+      font-weight: 600;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    td ul {
+      margin: 0;
+      padding-left: 1.6875rem;
+      list-style: disc;
+      font-size: 1.125rem;
+      line-height: 1.875rem;
+    }
+    td b {
+      font-weight: 600;
+    }
+    thead tr {
+      background: transparent;
+    }
+  }
+  .dosing-section {
+    background: @paleBlue;
+  }
+  // Adults table: no shaded header, vertical rule between the columns
+  .dosing-table--adult {
+    .dosing-head {
+      border-bottom: 0;
+    }
+    td:first-child {
+      width: 40.5%;
+      border-right: 1px solid #c5e9f8;
+    }
+  }
+  // Paediatric table: shaded header row, three columns
+  .dosing-table--child {
+    .dosing-head {
+      background: @paleBlue;
+    }
+    th,
+    td {
+      &:nth-child(1) { width: 23.5%; }
+      &:nth-child(2) { width: 33.75%; }
+    }
+    td:first-child {
+      font-weight: 600;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .figma-narrative .narrative__slide-container,
+  .figma-narrative .narrative__content {
+    width: 100% !important;
+  }
+  .figma-narrative .narrative__controls-left { left: 0; }
+  .figma-narrative .narrative__controls-right { right: 0; }
+  .figma-flow .flowitems__flow-item {
+    padding-right: 3.5rem;
+    &::after { right: 1rem; }
+  }
+}
+
+// ---------- Spacing tuned against the Figma coordinates ----------
+.figma-header:not(.figma-header--band) .block__inner {
+  padding-bottom: 0;
+}
+.figma-after-header .block__inner {
+  padding-top: 1.25rem;
+}
+.figma-header .component__body {
+  margin-top: 3.125rem;
+}
+.figma-intro-img img {
+  max-width: 448px;
+  min-width: 0;
+}
+.figma-band--top {
+  margin-top: 4.375rem;
+}
+// Figma: 104px from a 34px heading to the text under it
+.figma-sub .component__body,
+.figma-dosing.c-m3-450 .component__body {
+  margin-top: 3.6rem;
+}
+.figma-narrative .figma-subhead {
+  margin-top: 2.6rem;
+}
+.figma-narrative .component__instruction {
+  margin-top: 2.5rem;
+}
+.figma-dosing .dosing-section th,
+.figma-dosing .dosing-table--child .dosing-head th {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+// The slide container is overflow-visible (so the arrows can sit on the image edges); hide the off-screen slides instead
+.figma-narrative .narrative__slider-image-container.aria-hidden {
+  visibility: hidden;
+}
+.figma-narrative .narrative__controls.narrative__controls-left,
+.figma-narrative .narrative__controls.narrative__controls-left.is-disabled {
+  background-color: #ffffff;
+  color: @figma-heading;
+}
+
+// Image shown at half the column width (slide 37 Hair structure)
+.img-half .graphic__image-container img {
+  width: 50%;
+  min-width: 0;
+}
+
+// Hotgraphic popup items without an image: hide the empty image slot so the text spans the popup
+.hotgraphic-popup__item.popup-text-only {
+  .hotgraphic-popup__item-image-container {
+    display: none;
+  }
+  .hotgraphic-popup__item-content {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "adapt-textConfirmation",
+  "version": "1.0.0",
+  "framework": "^2.0.0",
+  "homepage": "",
+  "issues": "",
+  "displayName" : "Text Confirmation",
+  "component" : "textConfirmation",
+  "description": "A simple text component with checkbox confirmation",
+  "main": "/js/adapt-textConfirmation.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}

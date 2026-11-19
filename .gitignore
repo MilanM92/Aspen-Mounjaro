@@ -1,0 +1,7 @@
+# EMLA course repo: full project incl. src (course, theme, components, extensions) and build output.
+node_modules
+bower_components
+.DS_Store
+.idea
+# upstream git metadata of the vendored Adapt core (kept locally only)
+src/core/.git_upstream

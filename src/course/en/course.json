@@ -1,0 +1,151 @@
+{
+  "_id": "course",
+  "_type": "course",
+  "_classes": "",
+  "_htmlClasses": "",
+  "title": "EMLA",
+  "displayTitle": "<div class='main-title'><img src='course/en/images/logo.png'></div>",
+  "description": "A sample course demonstrating the capabilities of the Adapt Framework",
+  "body": "EMLA is used to provide topical anaesthesia. This module will cover the anatomy and physiology relevant to topical anaesthesia, including skin and neurotransmission.<br>Pain will also be discussed.",
+  "instruction": "",
+  "notes": "<p class='main-notes'><b>Notes</b></p><ol class='main-list'><li>For additional information on any of the modules, refer to the <a target='_blank' href='course/en/documents/Course Learner Guide.pdf'>Course Learner Guide</a>. Check out the additional reading material in the References document and browse through the Glossary to look up definitions. All these documents are available in the section of the course.</li><li>All defined terms used throughout the course will be highlighted in blue. If you need to clarify the meaning of a term, just hover the cursor over the blue highlighted term in a desktop view or tap it in a mobile view.</li><li>Please ensure you select all interactivities and view the content. The assessment will only be unlocked if you do this.</li><li>To further develop your learning journey please contact the Global Aspen Learning Academy for extra learning material.<br><a target='_blank' href='mailto:kirlearningacademy@ie.aspenpharma.com'>kirlearningacademy@ie.aspenpharma.com</a></li><li>The course will be considered passed only if you successfully complete the assessment of all modules.</li></ol>",
+  "_lockType": "sequential",
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Show your answer",
+      "ariaLabel": "Show your answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_globals": {
+    "_learnerInfo": {
+      "id": "student.name@example.org",
+      "name": "Name, Student",
+      "firstname": "Student",
+      "lastname": "Name"
+    },
+    "_accessibility": {
+      "skipNavigationText": "Skip navigation",
+      "_ariaLabels": {
+        "answeredIncorrectly": "You answered incorrectly",
+        "answeredCorrectly": "You answered correctly",
+        "selectedAnswer": "selected",
+        "unselectedAnswer": "not selected",
+        "skipNavigation": "Skip Navigation",
+        "previous": "Back",
+        "navigationDrawer": "Open course resources.",
+        "close": "Close",
+        "closeDrawer": "Close drawer",
+        "closeResources": "Close resources",
+        "drawer": "Top of side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Completed",
+        "incomplete": "Incomplete",
+        "incorrect": "Incorrect",
+        "correct": "Correct",
+        "locked": "Locked",
+        "visited": "Visited"
+      }
+    },
+    "_extensions": {
+      "_drawer": {
+        "_navOrder": 100
+      },
+      "_navigation": {
+        "_skipButton": {
+          "_navOrder": -100
+        },
+        "_backButton": {
+          "_navOrder": 0
+        },
+        "_spacers": [
+          {
+            "_navOrder": 0
+          }
+        ]
+      }
+    }
+  },
+  "_latestTrackingId": 277,
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": false,
+    "_isCompletionIndicatorEnabled": false,
+    "_isShownInNavigationBar": true
+  },
+  "_resources": {
+    "_isEnabled": true,
+    "title": "Resources",
+    "description": "View resources for this course by clicking here.",
+    "_filterButtons": {},
+    "_filterAria": {
+      "allAria": "View all resources",
+      "documentAria": "View document resources",
+      "mediaAria": "View media resources",
+      "linkAria": "View resource links"
+    },
+    "_resourcesItems": [
+      {
+        "_type": "document",
+        "title": "References",
+        "description": "",
+        "_link": "course/en/documents/References.pdf"
+      }
+    ]
+  },
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [
+      {
+        "_id": "co-05",
+        "_skipIfComplete": true,
+        "_className": ""
+      }
+    ],
+    "_force": false,
+    "_isMenuDisabled": false
+  },
+  "_assessment": {
+    "_isPercentageBased": true,
+    "_scoreToPass": 80,
+    "_correctToPass": 80
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "component",
+    "title": "Resume?",
+    "body": "Would you like to resume the course from the location you were at last time?",
+    "_buttons": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "_vanilla": {
+    "_favIcon": {
+      "_src": ""
+    }
+  },
+  "_tooltip": {
+    "_isEnabled": true
+  }
+}

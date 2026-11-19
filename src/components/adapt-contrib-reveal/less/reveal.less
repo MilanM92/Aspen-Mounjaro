@@ -1,0 +1,253 @@
+@mobile-down: (@device-width-small - 0.0625rem);
+@mobile: ~'only screen and (max-width: @{mobile-down})';
+
+.reveal.component {
+  .reveal__widget {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .reveal__widget-icon {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    &.icon-controls-down,
+    &.icon-controls-up {
+      top: 25%;
+    }
+  }
+
+  .reveal__widget-item {
+    position: relative;
+
+    @supports (-webkit-overflow-scrolling: touch) {
+      // Force rendering on iOS devices
+      transform: translateZ(0);
+    }
+  }
+
+  .reveal__widget-item.reveal__left {
+    float: left;
+    width: 50%;
+  }
+
+  .reveal__widget-item.reveal__right {
+    float: right;
+    width: 50%;
+  }
+
+  .reveal__image {
+    display: block;
+  }
+
+  .reveal__image.reveal__right {
+    float: right;
+  }
+
+  .reveal__image.reveal__left {
+    float: left;
+  }
+
+  .reveal__widget-slider {
+    margin-left: 0;
+  }
+}
+
+.reveal__widget-control {
+  background-color: fade(darken(@item-color, 15%), 70%);
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  transition: none;
+  width: 3.125rem;
+  z-index: 5;
+
+  &.reveal__left {
+    left: 0;
+  }
+
+  &.reveal__right {
+    right: 0;
+  }
+
+  &.reveal__top {
+    height: 3.125rem;
+    width: 100%;
+  }
+
+  &.reveal__bottom {
+    bottom: -0.5rem;
+    height: 3.125rem;
+    position: sticky;
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: fade(darken(@item-color, 15%), 90%);
+    cursor: pointer;
+  }
+}
+
+div.reveal__widget-item-text {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100% !important;
+  z-index: 1;
+
+  &.reveal__left {
+    left: 0;
+  }
+
+  &.reveal__right {
+    right: 0;
+  }
+}
+
+div.reveal__widget-item-text-body {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: @white;
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+
+  &.reveal__top {
+    .text-container {
+      margin-top: -2rem;
+    }
+  }
+
+  &.reveal__bottom {
+    .text-container {
+      margin-top: -1rem;
+    }
+  }
+
+  &.is-truncated {
+    .os-ios & {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+    }
+
+    .firefox & {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .text-container {
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 8;
+      display: -webkit-box;
+      overflow: hidden;
+
+      .size-medium & {
+        -webkit-line-clamp: 5;
+      }
+
+      &.small-clamp {
+        -webkit-line-clamp: 2;
+      }
+
+      @media @mobile {
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        overflow-y: hidden;
+
+        &.small-clamp {
+          -webkit-line-clamp: 1;
+        }
+
+        p {
+          display: inline;
+        }
+      }
+
+      .safari &,
+      .os-ios & {
+        display: block;
+        height: 99%;
+      }
+    }
+
+    .reveal__popup-open {
+      display: inline-block;
+      width: min-content;
+    }
+  }
+
+  &:not(.is-truncated) {
+    .reveal__popup-open {
+      display: none;
+    }
+  }
+
+  &.reveal__left {
+    padding: 2.5rem 2.5rem 3.75rem 5.625rem;
+
+    @media only screen and (min-width: @device-width-small) {
+      padding-right: 3.28125rem;
+    }
+
+    @media only screen and (min-width: @device-width-medium) {
+      padding-right: 3.75rem;
+    }
+  }
+
+  &.reveal__right {
+    padding: 2.5rem 5.625rem 3.75rem 2.34rem;
+
+    @media only screen and (min-width: @device-width-small) {
+      padding-left: 3.28125rem;
+    }
+
+    @media only screen and (min-width: @device-width-medium) {
+      padding-left: 3.75rem;
+    }
+  }
+
+  &.reveal__top,
+  &.reveal__bottom {
+    padding: 2.5rem 2.34rem 3.75rem 2.34rem;
+  }
+
+  &.reveal__top {
+    bottom: 0;
+    padding-top: 5.625rem !important;
+    position: absolute;
+    z-index: 1;
+
+    @media only screen and (min-width: @device-width-small) {
+      padding: 5.625rem 3.28rem 3.75rem 3.28125rem;
+    }
+
+    @media only screen and (min-width: @device-width-medium) {
+      padding: 5.625rem 3.75rem 3.75rem 3.75rem;
+    }
+  }
+
+  &.reveal__bottom {
+    bottom: auto;
+    padding-bottom: 5.625rem !important;
+    position: absolute;
+    z-index: 1;
+
+    @media only screen and (min-width: @device-width-small) {
+      padding: 2.5rem 3.28rem 3.75rem 3.28rem;
+    }
+
+    @media only screen and (min-width: @device-width-medium) {
+      padding: 5.625rem 3.75rem 3.75rem 3.75rem;
+    }
+  }
+}
