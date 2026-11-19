@@ -370,3 +370,17 @@ html {
     .verticalitems__item:nth-child(even) .verticalitems__item-icon { transform: rotate(138deg); }
   }
 }
+
+// Flip card backs: title on top, bullets underneath (instead of side by side)
+.flipcard-back-stacked .flipcard__item-back {
+  flex-direction: column;
+  align-items: stretch;
+  .flipcard__item-back-title {
+    width: auto;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+  .flipcard__item-back-body {
+    width: auto;
+  }
+}

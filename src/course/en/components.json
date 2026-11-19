@@ -5033,7 +5033,7 @@
     "_parentId": "b-u3-07",
     "_type": "component",
     "_component": "flipcard",
-    "_classes": "",
+    "_classes": "flipcard-back-stacked",
     "_layout": "full",
     "title": "",
     "displayTitle": "",
