@@ -391,3 +391,13 @@ html {
   margin-right: -8px;
   width: calc(100% + 16px);
 }
+
+// Captions: block-level so the top spacing really separates them from the image (inline padding just overlapped it).
+// About 8px visible gap between image and caption text (padding differs because the band captions use a bigger font).
+.graphic__image-container .graphic__attribution {
+  display: block;
+  padding-top: 5px;
+}
+.figma-band .graphic__image-container .graphic__attribution {
+  padding-top: 8px;
+}
