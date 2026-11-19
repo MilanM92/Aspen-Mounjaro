@@ -327,3 +327,17 @@
     transform: translate(-50%, -50%);
   }
 }
+
+// Slider items with different text lengths: let the text fill the space so all images share one top line
+.slider-align-img {
+  .slideritems__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .slideritems__item-body {
+    flex: 1 1 auto;
+  }
+  .slideritems__image-container {
+    display: block;
+  }
+}
