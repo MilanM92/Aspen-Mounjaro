@@ -2334,7 +2334,7 @@
       {
         "_group": 1,
         "title": "",
-        "body": "<ul><li>The skin is the first physical barrier of protection for the body.</li><li>It protects the body from the basic elements such as wind and UV radiation but also prevents the invasion of the body by foreign materials and pathogens.</li><li>The sweat glands produce dermcidin, which has antibacterial properties to further protect the skin.</li><li>The layers of keratin and glycolipids help to prevent the loss of water from the skin and prevent dehydration.</li></ul>",
+        "body": "<p>The skin is the first physical barrier of protection for the body.</p><ul><li>It protects the body from the basic elements such as wind and UV radiation but also prevents the invasion of the body by foreign materials and pathogens.</li><li>The sweat glands produce dermcidin, which has antibacterial properties to further protect the skin.</li><li>The layers of keratin and glycolipids help to prevent the loss of water from the skin and prevent dehydration.</li></ul>",
         "_graphic": {
           "src": "",
           "alt": ""
@@ -2344,7 +2344,7 @@
       {
         "_group": 2,
         "title": "",
-        "body": "<ul><li>The specialised nerve endings and structures within the epidermis, dermis and hypodermis allow for the skin to act as a sensory organ.</li><li>There are different structures, such as Meissner corpuscles and Pacinian corpuscles which respond to different sensory stimuli.</li><li>The hairs covering the skin also provide sensory input when disturbed.</li><li>There are pain and temperature receptors throughout the skin and motor nerves which innervate the smooth muscles and control the arrector pili muscles as well as the glands in the skin.</li><li>All the functions work together to allow the body to interact with and interpret the surrounding environment.</li></ul>",
+        "body": "<p>The specialised nerve endings and structures within the epidermis, dermis and hypodermis allow for the skin to act as a sensory organ.</p><ul><li>There are different structures, such as Meissner corpuscles and Pacinian corpuscles which respond to different sensory stimuli.</li><li>The hairs covering the skin also provide sensory input when disturbed.</li><li>There are pain and temperature receptors throughout the skin and motor nerves which innervate the smooth muscles and control the arrector pili muscles as well as the glands in the skin.</li><li>All the functions work together to allow the body to interact with and interpret the surrounding environment.</li></ul>",
         "_graphic": {
           "src": "",
           "alt": ""
@@ -2354,7 +2354,7 @@
       {
         "_group": 3,
         "title": "",
-        "body": "<ul><li>The sympathetic nervous system is continuously monitoring the body’s temperature and adjusting, as necessary.</li><li>These adjustments are the activation of the sweat glands to produce sweat, which then evaporates from the skin and cools the body through dissipation of the heat.</li><li>The body can become excessively warm due to exposure to high temperatures or through exertion such as exercise.</li><li>The arterioles in the dermis will dilate which will also allow for excess heat to be dissipated through the skin.</li><li>This explains the red “flushed” appearance of the skin that some people experience when they are hot or exercising.</li><li>When the body becomes too cold the arterioles in the dermis constrict to minimise heat loss.</li><li>This reduction in circulation can cause the skin to appear more white than normal.</li><li>The skin may also feel cold to the touch, but the prevention of heat loss means that the internal organs remain warm.</li></ul>",
+        "body": "<p>The sympathetic nervous system is continuously monitoring the body’s temperature and adjusting, as necessary.</p><ul><li>These adjustments are the activation of the sweat glands to produce sweat, which then evaporates from the skin and cools the body through dissipation of the heat.</li><li>The body can become excessively warm due to exposure to high temperatures or through exertion such as exercise.</li><li>The arterioles in the dermis will dilate which will also allow for excess heat to be dissipated through the skin.<ul><li>This explains the red “flushed” appearance of the skin that some people experience when they are hot or exercising.</li></ul></li><li>When the body becomes too cold the arterioles in the dermis constrict to minimise heat loss.<ul><li>This reduction in circulation can cause the skin to appear more white than normal.</li><li>The skin may also feel cold to the touch, but the prevention of heat loss means that the internal organs remain warm.</li></ul></li></ul>",
         "_graphic": {
           "src": "",
           "alt": ""
@@ -2364,7 +2364,7 @@
       {
         "_group": 4,
         "title": "",
-        "body": "<ul><li>Vitamin D is essential for the normal absorption of calcium and phosphorus in the body.</li><li>These minerals are very important for healthy bones.</li><li>The epidermis synthesises vitamin D when it is exposed to UV radiation from the sun.</li><li>When the skin is exposed to sunlight, a derivative of the steroid cholesterol is converted to cholecalciferol in the skin.</li><li>This cholecalciferol is then converted to calcidol in the kidneys.</li><li>The kidneys then convert this compound into calcitriol, which is the active chemical form of vitamin D.</li><li>In addition to vitamin D’s role in bone health it also plays a role in general immunity against infection from bacteria, viruses or fungi.</li></ul>",
+        "body": "<p>Vitamin D is essential for the normal absorption of calcium and phosphorus in the body.</p><ul><li>These minerals are very important for healthy bones.</li><li>The epidermis synthesises vitamin D when it is exposed to UV radiation from the sun.</li><li>When the skin is exposed to sunlight, a derivative of the steroid cholesterol is converted to cholecalciferol in the skin.</li><li>This cholecalciferol is then converted to calcidol in the kidneys.</li><li>The kidneys then convert this compound into calcitriol, which is the active chemical form of vitamin D.</li><li>In addition to vitamin D’s role in bone health it also plays a role in general immunity against infection from bacteria, viruses or fungi.</li></ul>",
         "_graphic": {
           "src": "",
           "alt": ""
