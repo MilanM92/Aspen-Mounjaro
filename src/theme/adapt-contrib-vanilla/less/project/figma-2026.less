@@ -315,3 +315,15 @@
     max-width: 100%;
   }
 }
+
+// Slide 48 gallery arrows: centre the icon in the 50x50 square (theme padding pushed it down).
+// Display is left to the theme, which shows one of two arrow sets depending on screen size.
+.figma-narrative .narrative__controls {
+  padding: 0;
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
