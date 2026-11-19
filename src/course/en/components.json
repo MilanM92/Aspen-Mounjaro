@@ -6250,7 +6250,7 @@
     "_parentId": "b-m2-10",
     "_type": "component",
     "_component": "flipcard",
-    "_classes": "bg-white",
+    "_classes": "bg-white flipcard-back-wide",
     "_layout": "full",
     "title": "",
     "displayTitle": "",
