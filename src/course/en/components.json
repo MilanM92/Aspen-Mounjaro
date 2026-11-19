@@ -4643,7 +4643,7 @@
     "_type": "component",
     "_component": "text",
     "_classes": "sub-title-p",
-    "_layout": "left",
+    "_layout": "full",
     "title": "",
     "displayTitle": "<span class='sub-title'>Types of Nociceptors</span>",
     "body": "Nociceptors do not all have the same sensitivity. The sensitivity will depend on the receptors’ response to mechanical, thermal or chemical stimuli that occurs when there is an injury or damage to the tissue.<br><br>There are four types of skin nociceptors:",
