@@ -26,6 +26,8 @@ class GroupItemsView extends ComponentView {
   reset() {
     this.model.resetActiveItems();
     this.model.set('_groupActive', 0);
+    // EMLA (RT 1280245): accordion mode starts with every group closed
+    if (this.model.get('_isAccordion')) return;
     const firstItem = this.model.getItem(this.model.get('_groupActive'));
 
     if (!firstItem) return;
@@ -34,6 +36,12 @@ class GroupItemsView extends ComponentView {
   }
 
   setActive(index) {
+    // EMLA (RT 1280245): in accordion mode a second click closes the open group
+    const item = this.model.getItem(index);
+    if (this.model.get('_isAccordion') && item && item.get('_isActive')) {
+      item.toggleActive(false);
+      return;
+    }
     this.model.setActiveItem(index);
     const button = document.getElementById(`${this.model.get('_id')}-button-${index}`);
     a11y.focus(button);

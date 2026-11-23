@@ -8,8 +8,59 @@ export default function GroupItems(props) {
     _groupItems,
     _groupActive,
     _globals,
+    _isAccordion,
     setActive
   } = props;
+  // EMLA (RT 1280245): accordion mode – each group is a full-width bar styled like the accordion component;
+  // the bar toggles its panel (the group's items) open and closed
+  if (_isAccordion) {
+    return (
+      <div className='component__inner groupitems__inner groupitems--accordion'>
+        <templates.header {...props} />
+        <div className='component__widget groupitems__widget'>
+          {_items.map(({ title, _isVisited, _isActive, _index }) => (
+            <div className='accordion-item groupitems__accordion-item' key={_index}>
+              <button
+                id={`${_id}-button-${_index}`}
+                className={classes([
+                  'accordion-item__btn',
+                  _isActive ? 'is-open is-selected' : 'is-closed',
+                  _isVisited && 'is-visited'
+                ])}
+                type='button'
+                aria-expanded={!!_isActive}
+                aria-controls={`${_id}-panel-${_index}`}
+                onClick={() => setActive(_index)}
+              >
+                <span className='accordion-item__btn-inner'>
+                  <span className='accordion-item__icon'><span className='icon' aria-hidden='true'></span></span>
+                  <span className='accordion-item__title'>{html(compile(title))}</span>
+                </span>
+              </button>
+              <div
+                id={`${_id}-panel-${_index}`}
+                className={classes(['groupitems__container-items', _isActive ? 'is-active' : ''])}
+                role='region'
+                aria-labelledby={`${_id}-button-${_index}`}
+              >
+                {_groupItems.filter(item => item._group === _index + 1).map(({ title, body, _graphic, _classes }, i) => (
+                  <div className={classes(['groupitems__item', _graphic.src && 'has-image', _classes])} key={i}>
+                    {title && (
+                      <div className='groupitems__item__content-title' role='heading' aria-level={a11y.ariaLevel('componentItem')}>
+                        {html(compile(title))}
+                      </div>
+                    )}
+                    {body && <div className='groupitems__item__content-body'>{html(compile(body))}</div>}
+                    <templates.image {..._graphic} classNamePrefixes={['component', 'groupitems']} />
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
   const onButtonClick = (index, event) => {
     setActive(index);
   };
