@@ -6586,7 +6586,7 @@
     "_layout": "left",
     "title": "Local Anaesthetic Agents",
     "displayTitle": "<span class='title'>LOCAL ANAESTHETIC AGENTS</span>",
-    "body": "<br>Local anaesthetics provide a reversible loss of sensation and reduce pain to facilitate surgical procedures. Local anaesthetic agents are used for topical anaesthesia. These local anaesthetics are weak bases and are made up of three important structures:<ul><li>Aromatic ring.</li><li>Intermediate ester or amide chain.</li><li>Tertiary amine.</li></ul>",
+    "body": "<br>Local anaesthetics provide a reversible loss of sensation and reduce pain to facilitate surgical procedures. Local anaesthetic agents are used for topical anaesthesia. These local anaesthetics are weak bases and are made up of three important structures:<ul><li>Aromatic ring</li><li>Intermediate ester or amide chain</li><li>Tertiary amine</li></ul>",
     "instruction": "",
     "_pageLevelProgress": {
       "_isEnabled": true
