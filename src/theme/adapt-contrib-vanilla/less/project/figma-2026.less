@@ -479,3 +479,17 @@ html.rt-zoom-open { overflow: hidden; }
   .rt-img-hug.is-left .graphic__image-container { display: table; margin-left: auto; }
   .rt-img-hug.is-right .graphic__image-container { display: table; margin-right: auto; }
 }
+// RT 1281312 (point 1): each slider stop sits centred on its item's text.
+// 6 equal columns with a 10px gap; the 25px thumb's centre runs from the first column's centre to the last one's.
+@media (min-width: 551px) {
+  .slider-equal-items {
+    .slideritems__container-items { gap: 10px; }
+    .slideritems__slider-input {
+      margin-left: calc((100% - 50px) / 12 - 12.5px);
+      margin-right: calc((100% - 50px) / 12 - 12.5px);
+      width: calc(100% - (100% - 50px) / 6 + 25px);
+    }
+    .slideritems__item-title,
+    .slideritems__item-body { text-align: center; }
+  }
+}
