@@ -12,6 +12,47 @@ class Theme extends Backbone.Controller {
       'app:dataReady': this.onDataReady,
       'pageView:postRender articleView:postRender blockView:postRender componentView:postRender': this.onPostRender
     });
+    this.setUpZoom();
+  }
+
+  // EMLA (RT 1279982): images in a component with the class "rt-zoomable" open full size in a layer
+  // over the page; clicking the layer (or pressing Esc) closes it again.
+  setUpZoom() {
+    const selector = '.rt-zoomable .graphic__image-container img';
+    const close = () => {
+      const $layer = $('.rt-zoom-layer');
+      if (!$layer.length) return;
+      const opener = $layer.data('opener');
+      $layer.remove();
+      $('html').removeClass('rt-zoom-open');
+      if (opener) opener.focus();
+    };
+    const open = img => {
+      close();
+      const $layer = $(`<div class="rt-zoom-layer" role="dialog" aria-modal="true" aria-label="${img.alt || 'Image'}" tabindex="-1">
+        <img class="rt-zoom-layer__img" alt="${img.alt || ''}">
+        <span class="rt-zoom-layer__hint" aria-hidden="true">Click to close</span>
+      </div>`);
+      $layer.find('img').attr('src', img.currentSrc || img.src);
+      $layer.data('opener', img);
+      $('body').append($layer);
+      $('html').addClass('rt-zoom-open');
+      $layer.trigger('focus');
+    };
+    $(document)
+      .on('click', selector, e => open(e.currentTarget))
+      .on('keydown', selector, e => {
+        if (e.key !== 'Enter' && e.key !== ' ') return;
+        e.preventDefault();
+        open(e.currentTarget);
+      })
+      .on('click', '.rt-zoom-layer', close)
+      .on('keydown', e => { if (e.key === 'Escape') close(); });
+    // keyboard access: the image is (re)rendered by React after postRender and revealed later by trickle,
+    // so tag it whenever it appears in the page
+    const tag = () => $(selector).not('[role=button]').attr({ tabindex: 0, role: 'button', 'aria-label': 'Enlarge image' });
+    new MutationObserver(tag).observe(document.body, { childList: true, subtree: true });
+    this.listenTo(Adapt, 'router:location', close);
   }
 
   onDataReady() {

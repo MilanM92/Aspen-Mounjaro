@@ -431,9 +431,36 @@ html {
   width: 50%;
   min-width: 0;
 }
-// RT 1279982: the layers of the skin image opens full size (new tab) – show it is clickable
-.rt-zoomable .graphic__image-container a,
+// RT 1279982: the layers of the skin image opens full size in a layer over the page (theme.js setUpZoom);
+// clicking the layer closes it. The caption stays plain text (no link underline).
 .rt-zoomable .graphic__image-container img { cursor: zoom-in; }
+.rt-zoomable .graphic__attribution { text-decoration: none; }
+html.rt-zoom-open { overflow: hidden; }
+.rt-zoom-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+  outline: none;
+}
+.rt-zoom-layer__img {
+  max-width: 100%;
+  max-height: calc(100% - 2rem);
+  object-fit: contain;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+.rt-zoom-layer__hint {
+  margin-top: 0.75rem;
+  color: #fff;
+  font-size: 0.875rem;
+}
 // RT 1281312: equal-width slider items
 .slider-equal-items .slideritems__item {
   flex: 1 1 0;
