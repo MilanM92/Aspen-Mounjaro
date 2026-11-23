@@ -942,12 +942,12 @@
     "_component": "text",
     "_classes": "",
     "_layout": "full",
-    "title": "",
+    "title": "Mast Cells",
     "displayTitle": "<span class='sub-title'>Mast Cells</span>",
     "body": "<br>Mast cells are specialised secretory cells derived from bone marrow and are found in connective tissue throughout the body. They are also found in subcutaneous fat. Mast cells play a role in allergic response and inflammation.",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -1092,7 +1092,7 @@
     "_component": "sliderItems",
     "_classes": "",
     "_layout": "full",
-    "title": "",
+    "title": "Dermal Layers",
     "displayTitle": "<span class='title'>DERMAL LAYERS</span><br><span class='sub-title'>Papillary Layer</span>",
     "body": "",
     "instruction": "Drag the circle along the horizontal line to reveal more information.",
@@ -1150,7 +1150,10 @@
         },
         "_classes": ""
       }
-    ]
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
   },
   {
     "_id": "c-110",
@@ -1159,12 +1162,12 @@
     "_component": "text",
     "_classes": "more-space",
     "_layout": "left",
-    "title": "",
+    "title": "Reticular Layer",
     "displayTitle": "<span class='sub-title'>Reticular Layer</span>",
     "body": "The layer beneath the papillary layer is the reticular layer. This is a thicker layer made up of dense, irregular connective tissue. This layer is highly vascularised, meaning there are many blood vessels, particularly larger ones. There is also a rich sensory and sympathetic nerve supply.",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -1576,12 +1579,12 @@
     "_component": "text",
     "_classes": "more-space",
     "_layout": "left",
-    "title": "Sweat Glands",
+    "title": "Accessory Structures of the Skin",
     "displayTitle": "<span class='sub-title'>Sweat Glands</span>",
     "body": "Sweat glands develop from epidermis projections that go into the dermis. These glands are known as merocrine glands because the secretions from these glands are excreted by exocytosis through a duct. This process does not affect the cells of the glands. There are 2 types of sweat glands, each of which secrete a slightly different substance.",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -1609,7 +1612,7 @@
     "_component": "flipcard",
     "_classes": "",
     "_layout": "full",
-    "title": "Accessory Structures of the Skin",
+    "title": "Sweat Glands",
     "displayTitle": "",
     "body": "",
     "instruction": "Select the pictures below to reveal more information.",
@@ -1634,8 +1637,7 @@
       }
     ],
     "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -1910,7 +1912,7 @@
       }
     ],
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -2025,7 +2027,7 @@
     "_component": "mcq",
     "_classes": "",
     "_layout": "full",
-    "title": "Knowledge check",
+    "title": "Knowledge Check",
     "displayTitle": "<span class='title'>KNOWLEDGE CHECK</span>",
     "body": "",
     "instruction": "Select the three true statements.",
@@ -2417,13 +2419,12 @@
     "_component": "text",
     "_classes": "",
     "_layout": "full",
-    "title": "",
+    "title": "Skin Physiology",
     "displayTitle": "<span class='title title-w'>Skin Physiology</span>",
     "body": "",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -3443,12 +3444,12 @@
     "_component": "text",
     "_classes": "more-space",
     "_layout": "full",
-    "title": "",
+    "title": "Propagation of Action Potential",
     "displayTitle": "<span class='sub-title'>Propagation of Action Potential</span>",
     "body": "Once an <span data-title='<b>Action Potential</b> - Nerve impulse' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>action potential</span> has been generated it needs to be moved onto the next neuron for the information to be communicated around the body.<br><br>Simply put, the message needs to be moved along the nerve. This is achieved by a process known as propagation. There are two types of propagation which occur.",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -3621,7 +3622,7 @@
       }
     ],
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     }
   },
   {
@@ -5119,12 +5120,12 @@
     "_component": "text",
     "_classes": "sub-title-p",
     "_layout": "left",
-    "title": "",
+    "title": "Acute Pain",
     "displayTitle": "<span class='sub-title'>Acute Pain</span>",
     "body": "Acute pain is short lived and intense pain. This type of pain is usually associated with an injury and is because of activation of the peripheral pain receptors and their specific C-fibres and A-delta fibres (nociceptors).<br><br>Acute pain has a sudden onset and is limited, lasting days or weeks. Severe acute pain can cause anxiety, tachycardia, increased respiratory rate, elevated blood pressure, sweating and dilated pupils. These symptoms are caused by hyperactivity of the sympathetic nervous system.",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -6305,7 +6306,7 @@
     "_component": "hotgraphic",
     "_classes": "",
     "_layout": "full",
-    "title": "Hypodermis",
+    "title": "Improving Absorption",
     "displayTitle": "",
     "body": "There are ways to improve the absorption of topical anaesthetic through the skin. ",
     "instruction": "Select each checkmark to read more.",
@@ -6507,7 +6508,7 @@
     "_component": "mcq",
     "_classes": "",
     "_layout": "full",
-    "title": "Knowledge check",
+    "title": "Knowledge Check",
     "displayTitle": "<span class='title'>KNOWLEDGE CHECK</span>",
     "body": "",
     "instruction": "Select the two true statements.",
@@ -6668,7 +6669,7 @@
     "_component": "verticalItems",
     "_classes": "sub-title-p",
     "_layout": "full",
-    "title": "",
+    "title": "Ester-linked Local Anaesthetics",
     "displayTitle": "<span class='title'>ESTER-LINKED LOCAL ANAESTHETICS</span>",
     "body": "",
     "instruction": "",
@@ -6728,7 +6729,7 @@
       }
     ],
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -6973,8 +6974,7 @@
     "body": "<br>Lidocaine is one of the most common amino amide local anaesthetics and was first discovered in 1948. Lidocaine is rapidly absorbed through the gastrointestinal tract, when injected or when inhaled making it a versatile agent. Lidocaine can also be used in topical formulation. Lidocaine may also be known as lignocaine.<br><br>90% of lidocaine is metabolised in the liver with the majority being excreted in the urine.<br><br>Adverse effects may be due to systemic toxicity and can affect the cardiovascular and central nervous systems.",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -7301,7 +7301,7 @@
     "_component": "text",
     "_classes": "",
     "_layout": "left",
-    "title": "EMLA",
+    "title": "EMLA Overview",
     "displayTitle": "",
     "body": "<br><span data-title='<b>EMLA</b> - Eutectic Mixture of Local Anaesthetic' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>EMLA</span> (eutectic mixture of local anaesthetics) is available as a cream and a patch. The EMLA emulsion is an oil-in-water emulsion system in which the oil phase consists of a eutectic mixture of the base forms of lidocaine and prilocaine in a 1:1 ratio.<br><br>A eutectic mixture is defined as a mixture of two or more substances that usually do not interact to form a new chemical compound but, at certain ratios, inhibit the crystallisation process of one another and so form a new compound with a lower melting point than any of the individual components.",
     "instruction": "",
@@ -8561,7 +8561,7 @@
     "_component": "flowItems",
     "_classes": "",
     "_layout": "full",
-    "title": "Emla cream and patch",
+    "title": "EMLA Cream and Patch",
     "displayTitle": "<span class='title'>EMLA CREAM AND PATCH</span>",
     "body": "EMLA is available as a cream and a patch. There are various settings in which one may be more appropriate than another, however the patch is as effective as the cream.<br><br>An EMLA patch provides several benefits with regards to ease of use including:",
     "instruction": "Select Continue to open the remaining text. ",
@@ -8753,7 +8753,7 @@
     "_component": "mcq",
     "_classes": "blue-background",
     "_layout": "full",
-    "title": "Knowledge check",
+    "title": "Knowledge Check",
     "displayTitle": "<span class='title'>KNOWLEDGE CHECK</span>",
     "body": "",
     "instruction": "Select the true statement.",
@@ -9114,7 +9114,7 @@
     "_component": "mcq",
     "_classes": "text1",
     "_layout": "full",
-    "title": "Knowledge check",
+    "title": "Knowledge Check",
     "displayTitle": "<span class='title'>KNOWLEDGE CHECK</span>",
     "body": "",
     "instruction": "Select the false statement.",
@@ -9274,7 +9274,7 @@
     "_component": "text",
     "_classes": "",
     "_layout": "full",
-    "title": " Epilation",
+    "title": "Epilation",
     "displayTitle": "<span class='sub-title'>Epilation</span>",
     "body": "<br>Epilation involves electrolysis and diathermy, both of which are described by patients as unpleasant or painful. Infiltration of local anaesthetic is also a painful procedure.<br><br>EMLA is highly concentrated, diffusible at room temperature and more effective than lidocaine alone.<br><br>EMLA therefore provides effective anaesthesia during epilation. Patients also reported less pain after the procedure after using EMLA.",
     "instruction": "",
@@ -11306,7 +11306,7 @@
     "_component": "mcq",
     "_classes": "",
     "_layout": "full",
-    "title": "Knowledge check",
+    "title": "Knowledge Check",
     "displayTitle": "<span class='title'>KNOWLEDGE CHECK</span>",
     "body": "",
     "instruction": "Select the true statement.",
@@ -11906,7 +11906,7 @@
     "_component": "mcq",
     "_classes": "",
     "_layout": "full",
-    "title": "Knowledge check",
+    "title": "Knowledge Check",
     "displayTitle": "<span class='title'>KNOWLEDGE CHECK</span>",
     "body": "",
     "instruction": "Select the false statement.",
@@ -12265,7 +12265,7 @@
     "_component": "text",
     "_classes": "bg-white figma-dosing",
     "_layout": "full",
-    "title": "Adults and adolescents 12 years of age and above.",
+    "title": "Dosing and Directions: EMLA Cream",
     "displayTitle": "<span class='figma-h2'>Dosing and Directions: EMLA Cream</span><span class='figma-subhead figma-underline'>Adults and adolescents 12 years of age and above</span>",
     "body": "<br><table class='dosing-table dosing-table--adult'><thead><tr class='dosing-head'><th>Indication / procedure</th><th>Dosage and application time</th></tr></thead><tbody><tr class='dosing-section'><th colspan='2'>Skin</th></tr><tr><td><b>General</b></td><td><ul><li>A thick layer of cream should be applied to the skin under an occlusive dressing.</li><li>For application to larger areas an elastic bandage should be applied on top of the occlusive dressing.</li><li>In the presence of atopic dermatitis, the application time should be reduced.</li></ul></td></tr><tr><td>Minor procedures e.g., needle insertion and surgical treatment of localised lesions</td><td><ul><li>2 g (Approx. half a 5g tube) or approx. 1.5 g/10 cm<sup>2</sup>.</li><li>1–5 hours.</li></ul></td></tr><tr><td>Dermal procedures on newly shaven skin of large body areas, e.g., laser hair removal&nbsp;(self-application)</td><td><ul><li>Maximum dose: 60mg.</li><li>Maximum treatment area: 600 cm<sup>2</sup>.</li><li>Minimum 1 hour, maximum 5 hours.</li></ul></td></tr><tr><td>Dermal procedures on larger areas in a hospital setting, e.g., split-skin grafting.</td><td><ul><li>Approx. 1.5 to 2 g/10 cm<sup>2</sup></li><li>Minimum of 2 hours, maximum 5 hours.</li></ul></td></tr><tr><td>Skin of male genital organs:</td><td><ul><li>Prior to injection of local anaesthetics</li><li>1g / 10 cm<sup>2</sup> for 15 minutes.</li></ul></td></tr><tr><td>Skin of female genital organs:</td><td><ul><li>Prior to injection of local anaesthetics</li><li>1–2 g/10 cm<sup>2</sup> for 60 minutes.</li></ul></td></tr><tr class='dosing-section'><th colspan='2'>Genital mucosa</th></tr><tr><td>Surgical treatment of localised lesions, e.g., removal of genital warts (condylomata acuminata) and prior to injection of local anaesthetics.</td><td><ul><li>Approx. 5–10 g EMLA for 5–10 minutes.</li><li>No occlusive dressing is required.</li><li>Commence procedure immediately thereafter.</li></ul></td></tr><tr><td>Prior to cervical curettage</td><td><ul><li>10g in the lateral vaginal fornices for 10 minutes.</li></ul></td></tr></tbody></table>",
     "instruction": "",
@@ -12695,7 +12695,7 @@
     "_component": "text",
     "_classes": "",
     "_layout": "left",
-    "title": " Pregnancy",
+    "title": "Pregnancy",
     "displayTitle": "",
     "body": "<br>In both animals and humans, lidocaine and prilocaine cross the placental barrier and may be absorbed by the foetal tissues. Safety in pregnancy and lactation has not been established, but topical application is associated with low systemic absorption. Caution should be exercised when used in pregnant women.<br><br>Animal studies do not indicate direct or indirect harmful effects with respect to pregnancy, embryonal/foetal development, parturition or postnatal development. Embryofoetal toxicity has been shown with subcutaneous/intramuscular administration of high doses of lidocaine or prilocaine, much exceeding the amount used in EMLA cream or patch.<br><br>No specific disturbance to the reproductive process has so far been reported, e.g., an increased incidence of malformation or other directly or indirectly harmful effects on the foetus.",
     "instruction": "",
