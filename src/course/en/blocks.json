@@ -221,10 +221,14 @@
     "_parentId": "a-09",
     "_type": "block",
     "_classes": "block extend-content-container small-padding",
-    "title": "b-65",
+    "title": "Dermal Cells",
     "displayTitle": "",
     "body": "",
-    "_trackingId": 8
+    "_trackingId": 8,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
   },
   {
     "_id": "b-70",
@@ -251,10 +255,14 @@
     "_parentId": "a-09",
     "_type": "block",
     "_classes": "block extend-content-container",
-    "title": "b-75",
+    "title": "Dermal Layers",
     "displayTitle": "",
     "body": "",
-    "_trackingId": 11
+    "_trackingId": 11,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
   },
   {
     "_id": "b-80",
@@ -531,10 +539,14 @@
     "_parentId": "a-22",
     "_type": "block",
     "_classes": "block extend-content-container",
-    "title": "b-250",
+    "title": "Action Potential",
     "displayTitle": "",
     "body": "",
-    "_trackingId": 265
+    "_trackingId": 265,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
   },
   {
     "_id": "b-260",
@@ -2730,10 +2742,14 @@
     "_parentId": "a-m3-20",
     "_type": "block",
     "_classes": "block extend-content-container",
-    "title": "b-m3-110",
+    "title": "Superficial Skin Procedures",
     "displayTitle": "",
     "body": "",
-    "_trackingId": 216
+    "_trackingId": 216,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
   },
   {
     "_id": "b-m3-355",
@@ -2790,10 +2806,14 @@
     "_parentId": "a-m3-20",
     "_type": "block",
     "_classes": "block extend-content-container",
-    "title": "b-m3-110",
+    "title": "Dosing and Directions: EMLA Cream",
     "displayTitle": "",
     "body": "",
-    "_trackingId": 222
+    "_trackingId": 222,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
   },
   {
     "_id": "b-m3-385",
@@ -2810,10 +2830,14 @@
     "_parentId": "a-m3-20",
     "_type": "block",
     "_classes": "block extend-content-container bottom-padding",
-    "title": "b-m3-110",
+    "title": "Contraindications and Precautions",
     "displayTitle": "",
     "body": "",
-    "_trackingId": 233
+    "_trackingId": 233,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
   },
   {
     "_id": "b-m3-395",
