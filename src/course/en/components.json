@@ -5067,7 +5067,7 @@
     "_id": "c-530",
     "_parentId": "b-470",
     "_type": "component",
-    "_component": "groupItems",
+    "_component": "accordion",
     "_classes": "",
     "_layout": "full",
     "title": "Types of Pain",
@@ -5075,41 +5075,24 @@
     "body": "These pain categories can then be further divided.",
     "instruction": "Select the tab below to learn more.",
     "_setCompletionOn": "allItems",
-    "_groups": [
-      {
-        "title": "Nociceptive Pain",
-        "_icon": {
-          "src": "",
-          "_classes": "",
-          "alt": ""
-        }
-      }
-    ],
     "_items": [
       {
-        "_group": 1,
-        "title": "Somatic Pain",
-        "body": "<ul><li>Activation of receptors located in:<ul><li>Skin, subcutaneous tissues, fascia, connective tissues, bones and joint capsules.</li></ul></li><li>Activation of receptors leads to sharp or dull localised pain.</li><li>May be associated with burning.</li></ul>",
+        "title": "Nociceptive Pain",
+        "body": "<p><b>Somatic Pain</b></p><ul><li>Activation of receptors located in:<ul><li>Skin, subcutaneous tissues, fascia, connective tissues, bones and joint capsules.</li></ul></li><li>Activation of receptors leads to sharp or dull localised pain.</li><li>May be associated with burning.</li></ul><p><b>Visceral Pain</b></p><ul><li>Activation of nociceptors in viscera and surrounding connective tissue.</li><li>Obstruction of hollow organ will produce poorly localised, deep and possibly cramping pain.</li><li>This pain may be referred to remote sites.</li><li>Pain due to injury to viscera will produce more localised and sharp pain.</li></ul>",
+        "_imageAlignment": "full",
         "_graphic": {
           "src": "",
-          "alt": ""
-        },
-        "_classes": ""
-      },
-      {
-        "_group": 1,
-        "title": "Visceral Pain",
-        "body": "<ul><li>Activation of nociceptors in viscera and surrounding connective tissue.</li><li>Obstruction of hollow organ will produce poorly localised, deep and possibly cramping pain.</li><li>This pain may be referred to remote sites.</li><li>Pain due to injury to viscera will produce more localised and sharp pain.</li></ul>",
-        "_graphic": {
-          "src": "",
-          "alt": ""
+          "alt": "",
+          "attribution": ""
         },
         "_classes": ""
       }
     ],
     "_pageLevelProgress": {
       "_isEnabled": true
-    }
+    },
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false
   },
   {
     "_id": "c-535",
