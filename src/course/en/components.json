@@ -8117,91 +8117,14 @@
     }
   },
   {
-    "_id": "c-m2-280",
-    "_parentId": "b-m2-220",
-    "_type": "component",
-    "_component": "mcq",
-    "_classes": "",
-    "_layout": "left",
-    "title": "Question 6",
-    "displayTitle": "Question 6",
-    "body": "Which is one of the most commonly used amide-linked local anaesthetic agents?",
-    "instruction": "Select the correct answer and submit your response.",
-    "ariaQuestion": "Select the correct answer and submit your response.",
-    "_attempts": 1,
-    "_shouldDisplayAttempts": false,
-    "_isRandom": false,
-    "_hasItemScoring": false,
-    "_questionWeight": 1,
-    "_selectable": 1,
-    "_canShowModelAnswer": false,
-    "_canShowFeedback": false,
-    "_canShowMarking": false,
-    "_recordInteraction": true,
-    "_items": [
-      {
-        "text": "Procaine",
-        "_shouldBeSelected": false
-      },
-      {
-        "text": "Lidocaine",
-        "_shouldBeSelected": true
-      },
-      {
-        "text": "Tetracaine",
-        "_shouldBeSelected": false
-      }
-    ],
-    "_feedback": {
-      "title": "Feedback",
-      "correct": "Congratulations, this is the correct feedback.",
-      "_incorrect": {
-        "notFinal": "",
-        "final": "This feedback will appear if you answered the question incorrectly."
-      },
-      "_partlyCorrect": {
-        "notFinal": "",
-        "final": "This feedback will appear if you answered the question correctly."
-      }
-    },
-    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
-    "_buttons": {
-      "_submit": {
-        "buttonText": "Submit",
-        "ariaLabel": "Select here to submit your answer."
-      },
-      "_reset": {
-        "buttonText": "Reset",
-        "ariaLabel": ""
-      },
-      "_showCorrectAnswer": {
-        "buttonText": "Correct Answer",
-        "ariaLabel": ""
-      },
-      "_hideCorrectAnswer": {
-        "buttonText": "My Answer",
-        "ariaLabel": ""
-      },
-      "_showFeedback": {
-        "buttonText": "Show feedback",
-        "ariaLabel": ""
-      },
-      "remainingAttemptsText": "attempts remaining",
-      "remainingAttemptText": "final attempt"
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    }
-  },
-  {
     "_id": "c-m2-285",
     "_parentId": "b-m2-225",
     "_type": "component",
     "_component": "mcq",
     "_classes": "",
     "_layout": "left",
-    "title": "Question 7",
-    "displayTitle": "Question 7",
+    "title": "Question 6",
+    "displayTitle": "Question 6",
     "body": "Systemic toxicity with local anaesthetics can cause…",
     "instruction": "Select the correct answer and submit your response.",
     "ariaQuestion": "Select the correct answer and submit your response.",
@@ -8277,8 +8200,8 @@
     "_component": "mcq",
     "_classes": "",
     "_layout": "left",
-    "title": "Question 8",
-    "displayTitle": "Question 8",
+    "title": "Question 7",
+    "displayTitle": "Question 7",
     "body": "What type of mixture is EMLA?",
     "instruction": "Select the correct answer and submit your response.",
     "ariaQuestion": "Select the correct answer and submit your response.",
@@ -8354,8 +8277,8 @@
     "_component": "mcq",
     "_classes": "",
     "_layout": "left",
-    "title": "Question 9",
-    "displayTitle": "Question 9",
+    "title": "Question 8",
+    "displayTitle": "Question 8",
     "body": "Systemic toxicity with local anaesthetics can cause…",
     "instruction": "Select the correct answer and submit your response.",
     "ariaQuestion": "Select the correct answer and submit your response.",
