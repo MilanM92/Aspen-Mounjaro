@@ -6233,7 +6233,7 @@
     "_parentId": "b-m2-05",
     "_type": "component",
     "_component": "graphic",
-    "_classes": "img-native",
+    "_classes": "img-native rt-img-hug",
     "_layout": "left",
     "title": "",
     "displayTitle": "",

@@ -474,3 +474,8 @@ html.rt-zoom-open { overflow: hidden; }
   .groupitems__container-items.is-active { display: flex; }
   .groupitems__item { margin-right: 0; flex: 1 1 0; min-width: 0; }
 }
+// RT 1281292: a narrow image beside text sits at the inner edge of its column (next to the text), caption under it
+@media (min-width: @device-width-medium) {
+  .rt-img-hug.is-left .graphic__image-container { display: table; margin-left: auto; }
+  .rt-img-hug.is-right .graphic__image-container { display: table; margin-right: auto; }
+}
