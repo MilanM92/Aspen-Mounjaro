@@ -401,3 +401,41 @@ html {
 .figma-band .graphic__image-container .graphic__attribution {
   padding-top: 8px;
 }
+
+// ================= RT fixes (tester tickets, Nov 2026) – classes set in _work/patches/w9_rt.js =================
+// RT 1280090 / 1281310 / 1281311: captions written inside body text, styled like the graphic captions
+.inline-caption {
+  display: inline-block;
+  padding-top: 5px;
+  font-weight: 700;
+}
+// RT 1280017 / 1280050 / 1280083: centred images and captions
+.img-center {
+  .graphic__image-container img { margin-left: auto; margin-right: auto; }
+  .graphic__attribution { text-align: center; }
+}
+// RT 1280228: less empty space around the Sensation / Perception cards
+.rt-tight-bottom .block__inner { padding-bottom: 1rem; }
+.rt-tight .block__inner { padding-top: 1rem; padding-bottom: 1rem; }
+.rt-tight-top .block__inner { padding-top: 1rem; }
+// RT 1281295: image placed after the text inside a flow item
+.rt-flow-img {
+  display: block;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+// RT 1281316: flow item image at half width
+.rt-flow-img-half .flowitems-item__image img,
+.rt-flow-img-half .flowitems__flow-item img,
+.rt-flow-img-half .component__image-container img {
+  width: 50%;
+  min-width: 0;
+}
+// RT 1279982: the layers of the skin image opens full size (new tab) – show it is clickable
+.rt-zoomable .graphic__image-container a,
+.rt-zoomable .graphic__image-container img { cursor: zoom-in; }
+// RT 1281312: equal-width slider items
+.slider-equal-items .slideritems__item {
+  flex: 1 1 0;
+  min-width: 0;
+}

@@ -19,13 +19,12 @@
     "_component": "text",
     "_classes": "",
     "_layout": "full",
-    "title": "  ",
+    "title": "Anatomy of the Skin",
     "displayTitle": "<span class='figma-eyebrow'>EMLA</span><span class='title figma-title'>Anatomy of the Skin</span>",
     "body": "",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -33,7 +32,7 @@
     "_parentId": "b-u1-02",
     "_type": "component",
     "_component": "graphic",
-    "_classes": "figma-intro-img",
+    "_classes": "figma-intro-img rt-zoomable",
     "_layout": "left",
     "_isOptional": true,
     "title": "c-u1-03",
@@ -43,7 +42,9 @@
     "_graphic": {
       "src": "course/en/images/M1/u1_layers_of_the_skin.jpg",
       "alt": "Layers of the skin",
-      "attribution": "Layers of the skin"
+      "attribution": "Layers of the skin",
+      "_url": "course/en/images/M1/u1_layers_of_the_skin.jpg",
+      "_target": "_blank"
     }
   },
   {
@@ -203,12 +204,12 @@
     "_component": "text",
     "_classes": "figma-sub",
     "_layout": "full",
-    "title": "",
+    "title": "Layers of the Skin",
     "displayTitle": "<span class='sub-title'>Layers of the Skin</span>",
     "body": "The skin is made up of three layers:<ul><li>Epidermis</li><li>Dermis</li><li>Subcutaneous fat layer (hypodermis)</li></ul>Each layer has specific functions.",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -237,7 +238,7 @@
     "title": "Epidermis",
     "displayTitle": "",
     "body": "The epidermis is the thin, tough outer layer of the skin.<br><br>The epidermis is a stratified, squamous epithelium layer and is mostly made up of two types of cells – keratinocytes and dendritic cells. Keratinocytes make up many of the cells in the epidermis. There are also other cells found within the epidermis and include melanocytes, Langerhans cells and Merkel cells. These cells make up a smaller proportion of the skin.<br><br>The epidermis is made up of four or five layers, depending on the location in the body. The layers are differentiated by the keratinocyte morphology and position as they change through the layers from keratinocytes to horny cells.<br><br>The layers of the skin, from deepest to most superficial are: <ul><li><span data-title='<b>Stratum Basale</b> - Also known as the basal layer or stratum germinativum' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Stratum basale</span></li><li><span data-title='<b>Stratum Spinosum</b> - Squamous cell layer' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Stratum spinosum</span></li><li><span data-title='<b>Stratum Granulosum</b> - Granular layer' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Stratum granulosum</span></li><li><span data-title='<b>Stratum Corneum</b> - Cornified or horny cell layer' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Stratum corneum</span></li></ul>",
-    "instruction": "Select the pictures below to read more.",
+    "instruction": "Select the picture below to read more.",
     "notes": "",
     "_flipType": "allFlip",
     "_flipTime": 400,
@@ -462,7 +463,7 @@
     "_parentId": "b-u1-06",
     "_type": "component",
     "_component": "graphic",
-    "_classes": "img-native",
+    "_classes": "img-native img-center",
     "_layout": "full",
     "_isOptional": true,
     "title": "c-u1-07",
@@ -595,7 +596,7 @@
     "_items": [
       {
         "title": "Stratum Basale",
-        "body": "<ul><li>Basal layer – deepest layer.</li><li>Connects epidermis to basal lamina.</li><li>Collagen fibres bind layer to dermis.</li><li>Single layer of basal cells:</li><ul><li>Cuboidal-shaped stem cells</li><li>Precursors for keratinocytes</li></ul><li>All keratinocytes produced from this layer</li><li>New cells produced, push older cells upwards to upper epidermal layers</li><li>Contains papillae – finger-like projections:</li><ul><li>Increase strength of connection between epidermis and dermis.</li><li>The more papillae present the stronger the connection.</li></ul><li>Also contains Merkel cells and melanocytes.</li></ul>",
+        "body": "<ul><li>Basal layer – deepest layer.</li><li>Connects epidermis to basal lamina.</li><li>Collagen fibres bind layer to dermis.</li><li>Single layer of basal cells:</li><ul><li>Cuboidal-shaped stem cells.</li><li>Precursors for keratinocytes.</li></ul><li>All keratinocytes produced from this layer.</li><li>New cells produced, push older cells upwards to upper epidermal layers.</li><li>Contains papillae – finger-like projections:</li><ul><li>Increase strength of connection between epidermis and dermis.</li><li>The more papillae present the stronger the connection.</li></ul><li>Also contains Merkel cells and melanocytes.</li></ul>",
         "_graphic": {
           "src": "course/en/images/M1/flex_item_1.png"
         },
@@ -603,7 +604,7 @@
       },
       {
         "title": "Stratum Spinosum",
-        "body": "<ul><li>Made up of 8 – 10 layers of keratinocytes.</li><li><span data-title='<b>Spiny appearance because of cell processes</b> - Desmosomes' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Spiny appearance because of cell processes</span>.</li><li>Desmosomes interlock and strengthen bond between cells.</li><li>Keratinocytes begin to synthesize keratin and release glycolipid that repel water.</li><li>Helps prevent water loss and makes skin waterproof.</li><li>Also contains Langerhans cells.</li></ul>",
+        "body": "<ul><li>Made up of 8 – 10 layers of keratinocytes.</li><li><span data-title='<b>Desmosomes</b> - Spiny appearance because of cell processes' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Spiny appearance because of cell processes</span>.</li><li>Desmosomes interlock and strengthen bond between cells.</li><li>Keratinocytes begin to synthesize keratin and release glycolipid that repel water.</li><li>Helps prevent water loss and makes skin waterproof.</li><li>Also contains Langerhans cells.</li></ul>",
         "_graphic": {
           "src": "course/en/images/M1/flex_item_2.png"
         },
@@ -611,7 +612,7 @@
       },
       {
         "title": "Stratum Granulosum",
-        "body": "<ul><li>Made up of 3 to 5 layers of keratinocytes.</li><li>Granular appearance because keratinocytes have changed shape:</li><ul><li>Flattened and thicker cell membranes.</li></ul><li><span data-title='<b>Produces more keratin</b> - More fibrous' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Produces more keratin</span></li><li>Produces keratohyalin:</li><ul><li>Accumulate as lamellar granules within the cells.</li></ul><li>As keratinocytes move upwards through the layer, nuclei and other organelles disintegrate as cells die</li><li>Leave behind keratin, keratohyalin and cell membranes:</li><ul><li>Make up the stratum lucidum, stratum corneum and certain accessory structures such as hair and nails.</li></ul></ul>",
+        "body": "<ul><li>Made up of 3 to 5 layers of keratinocytes.</li><li>Granular appearance because keratinocytes have changed shape:</li><ul><li>Flattened and thicker cell membranes.</li></ul><li><span data-title='<b>Produces more keratin</b> - More fibrous' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Produces more keratin</span>.</li><li>Produces keratohyalin:</li><ul><li>Accumulate as lamellar granules within the cells.</li></ul><li>As keratinocytes move upwards through the layer, nuclei and other organelles disintegrate as cells die.</li><li>Leave behind keratin, keratohyalin and cell membranes:</li><ul><li>Make up the stratum lucidum, stratum corneum and certain accessory structures such as hair and nails.</li></ul></ul>",
         "_graphic": {
           "src": "course/en/images/M1/flex_item_3.png",
           "alt": ""
@@ -620,7 +621,7 @@
       },
       {
         "title": "Stratum Lucidum",
-        "body": "<ul><li><span data-title='<b>Only found in thicker epidermal skin</b> - Soles of feet and palms of hands' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Only found in thicker epidermal skin</span></li><li>Smooth, almost transparent layer.</li><li>Made up of dead, flattened keratinocytes.</li><li>Densely packed with protein called eleidein:</li><ul><li>Protein rich in lipids.</li><li>Derived from keratohyalin.</li></ul><li>Provides waterproof barrier to skin.</li></ul>",
+        "body": "<ul><li><span data-title='<b>Only found in thicker epidermal skin</b> - Soles of feet and palms of hands' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>Only found in thicker epidermal skin</span>.</li><li>Smooth, almost transparent layer.</li><li>Made up of dead, flattened keratinocytes.</li><li>Densely packed with protein called eleidein:</li><ul><li>Protein rich in lipids.</li><li>Derived from keratohyalin.</li></ul><li>Provides waterproof barrier to skin.</li></ul>",
         "_graphic": {
           "src": "course/en/images/M1/flex_item_4.png"
         },
@@ -644,7 +645,7 @@
     "_parentId": "b-u1-07",
     "_type": "component",
     "_component": "graphic",
-    "_classes": "img-native",
+    "_classes": "img-native img-center",
     "_layout": "full",
     "_isOptional": true,
     "title": "c-u1-08",
@@ -654,7 +655,7 @@
     "_graphic": {
       "src": "course/en/images/M1/u1_epidermis_layers_micrograph.png",
       "alt": "Micrograph showing layers of the epidermis.",
-      "attribution": "Micrograph showing layers of the epidermis."
+      "attribution": "Micrograph showing layers of the epidermis"
     }
   },
   {
@@ -723,7 +724,7 @@
     "_graphic": {
       "src": "course/en/images/M1/u1_loose_collagen.png",
       "alt": "Loose collagen is made up of collagen and elastin fibres.",
-      "attribution": "Loose collagen is made up of collagen and elastin fibres."
+      "attribution": "Loose collagen is made up of collagen and elastin fibres"
     }
   },
   {
@@ -1838,7 +1839,7 @@
     "_parentId": "b-u1-11",
     "_type": "component",
     "_component": "graphic",
-    "_classes": "img-half",
+    "_classes": "img-half img-center",
     "_layout": "full",
     "_isOptional": true,
     "title": "c-u1-13",
@@ -1923,7 +1924,7 @@
     "_layout": "full",
     "title": "Blood Supply",
     "displayTitle": "<span class='sub-title'>Blood Supply</span>",
-    "body": "<div class='flow_flex'><br>The blood vessels that supply the skin are found in the dermal layer. This dermal vasculature is made up of two plexuses.<div class='flow-img'><img src='course/en/images/M1/u1_skin_vasculature.png' alt='Vasculature of the skin.'><br>Vasculature of the skin.</div></div>",
+    "body": "<div class='flow_flex'><br>The blood vessels that supply the skin are found in the dermal layer. This dermal vasculature is made up of two plexuses.<div class='flow-img'><img src='course/en/images/M1/u1_skin_vasculature.png' alt='Vasculature of the skin.'><br><b class='inline-caption'>Vasculature of the skin</b></div></div>",
     "instruction": "Select Continue to open the remaining text.",
     "_setCompletionOn": "allItems",
     "_isSequential": true,
@@ -2769,7 +2770,7 @@
     "_component": "text",
     "_classes": "",
     "_layout": "full",
-    "title": "Neurotransimission",
+    "title": "Neurotransmission",
     "displayTitle": "<span class='figma-eyebrow'>EMLA</span><span class='title figma-title'>Neurotransmission</span>",
     "body": "For the nervous system to function, neurons must be able to send and receive signals. This is called neurotransmission. This transmission is possible because of the charged cellular membrane that surrounds each neuron and the change in this charge in response to neurotransmitters or environmental stimuli.<br><br>To understand this concept, we need to understand the charges associated with the membrane and how they are changed.",
     "instruction": "",
@@ -2817,7 +2818,7 @@
       },
       {
         "title": "",
-        "body": "Ions are found in varying concentrations on either side of a membrane and will naturally move from an area of higher concentration to lower concentration. This movement may be into or out of a cell. For ions to be moved against this gradient a protein pump is required. An important pump in the body is the sodium/potassium pump (Na+/K+) pump.",
+        "body": "Ions are found in varying concentrations on either side of a membrane and will naturally move from an area of higher concentration to lower concentration. This movement may be into or out of a cell. For ions to be moved against this gradient a protein pump is required. An important pump in the body is the sodium/potassium pump (Na<sup>+</sup>/K<sup>+</sup>) pump.",
         "_graphic": {
           "src": "course/en/images/M1/u2_narrative_3.png",
           "alt": "",
@@ -2838,7 +2839,7 @@
     "_classes": "",
     "_layout": "full",
     "title": "Resting Membrane Protection",
-    "displayTitle": "<span class='sub-title'>Resting Membrane Protection</span>",
+    "displayTitle": "<span class='figma-subhead'>Resting Membrane Protection</span>",
     "body": "",
     "instruction": "Select Continue to open the remaining text.",
     "_setCompletionOn": "allItems",
@@ -3062,12 +3063,12 @@
     "_type": "component",
     "_classes": "",
     "_layout": "left",
-    "title": "",
+    "title": "Action Potential",
     "displayTitle": "",
     "body": "When a neuron is at rest it is in a steady state and without an outside influence this will not change therefore no electrical signal (impulse) will be transmitted from one neuron to the next. For impulse transmission from one neuron to another, the membrane potential needs to change.",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -3103,7 +3104,7 @@
     "_items": [
       {
         "title": "",
-        "body": "This process starts with the opening of a sodium channel. This usually occurs when a neurotransmitter binds to receptors on the neuron’s dendrites. The sodium channels in the axon hillock open, and because of the higher concentration of Na+ outside the cell, there is an influx of sodium takes into the cell down the concentration gradient. Sodium ions carry a positive charge, so the potential within the cell approaches 0. This is known as&nbsp;depolarisation.",
+        "body": "This process starts with the opening of a sodium channel. This usually occurs when a neurotransmitter binds to receptors on the neuron’s dendrites. The sodium channels in the axon hillock open, and because of the higher concentration of Na<sup>+</sup> outside the cell, there is an influx of sodium takes into the cell down the concentration gradient. Sodium ions carry a positive charge, so the potential within the cell approaches 0. This is known as&nbsp;depolarisation.",
         "_icon": {
           "src": "",
           "_classes": "",
@@ -3116,7 +3117,7 @@
       },
       {
         "title": "",
-        "body": "Due to the high concentration of sodium ions outside the cell, Na+ continues to move into the cell after the potential has reached 0 and the potential will become positive. The membrane potential approaches +30 mV, which is called peak potential. The electrical signal (impulse) will be transmitted from one neuron to the next during the peak potential phase.",
+        "body": "Due to the high concentration of sodium ions outside the cell, Na<sup>+</sup> continues to move into the cell after the potential has reached 0 and the potential will become positive. The membrane potential approaches +30 mV, which is called peak potential. The electrical signal (impulse) will be transmitted from one neuron to the next during the peak potential phase.",
         "_icon": {
           "src": "",
           "_classes": "",
@@ -3129,7 +3130,7 @@
       },
       {
         "title": "",
-        "body": "As the membrane potential approaches +30mV, the potassium channels within the membrane open. Due to the concentration gradient, the potassium ions (K+) start to leave the cell and take the positive charge with them. The membrane potential starts to approach 0 again. This is called repolarisation and describes the membrane potential moving back towards the resting potential of&nbsp;-70mV.",
+        "body": "As the membrane potential approaches +30mV, the potassium channels within the membrane open. Due to the concentration gradient, the potassium ions (K<sup>+</sup>) start to leave the cell and take the positive charge with them. The membrane potential starts to approach 0 again. This is called repolarisation and describes the membrane potential moving back towards the resting potential of&nbsp;-70mV.",
         "_icon": {
           "src": "",
           "_classes": "",
@@ -3251,7 +3252,7 @@
     "_layout": "full",
     "title": "",
     "displayTitle": "",
-    "body": "Action potential is what allows for the signal to be transported from one neuron to the next and communication to occur between neurons. The action potential needs to be initiated for the sodium gates to open and the process to begin. The action potential can be initiated by different signals:<ul><li>Neurotransmitter binding to Na+ ligand-gated channel and opening the channel.</li><li>Mechanically gated Na+ channel opening when physical stimulus affects sensory receptor.</li><li>Stimulus depolarising Na+ voltage-gated channel (important for action potential).</li></ul>",
+    "body": "Action potential is what allows for the signal to be transported from one neuron to the next and communication to occur between neurons. The action potential needs to be initiated for the sodium gates to open and the process to begin. The action potential can be initiated by different signals:<ul><li>Neurotransmitter binding to Na<sup>+</sup> ligand-gated channel and opening the channel.</li><li>Mechanically gated Na<sup>+</sup> channel opening when physical stimulus affects sensory receptor.</li><li>Stimulus depolarising Na<sup>+</sup> voltage-gated channel (important for action potential).</li></ul>",
     "instruction": "",
     "_pageLevelProgress": {
       "_isEnabled": false
@@ -3286,7 +3287,7 @@
           "alt": ""
         },
         "backTitle": "",
-        "backBody": "If depolarisation reaches -55mV then the full action potential cycle will occur. This cycle is always the same, no matter how big or strong the stimulus the action potential will always be the same. This is the “all.”"
+        "backBody": "If depolarisation reaches -55mV then the full action potential cycle will occur. This cycle is always the same, no matter how big or strong the stimulus the action potential will always be the same. This is the “all.”<br><br>If the stimulus is not strong enough to depolarise the membrane to -55mV threshold, then no action potential will be generated. This is the “none.”"
       },
       {
         "frontImage": {
@@ -3294,7 +3295,7 @@
           "alt": ""
         },
         "backTitle": "",
-        "backBody": "If the stimulus is not strong enough to depolarise the membrane to -55mV threshold, then no action potential will be generated. This is the “none.”<br><br>Therefore, either the membrane reaches the threshold, and the cycle occurs as described, or it does not reach the threshold, and nothing happens."
+        "backBody": "Therefore, either the membrane reaches the threshold, and the cycle occurs as described, or it does not reach the threshold, and nothing happens."
       }
     ],
     "_pageLevelProgress": {
@@ -3483,7 +3484,7 @@
       },
       {
         "title": "",
-        "body": "The Na+ ions flow into the neuron, and as the ions travel along, they bring a positive charge with them causing more of the membrane to become depolarised.",
+        "body": "The Na<sup>+</sup> ions flow into the neuron, and as the ions travel along, they bring a positive charge with them causing more of the membrane to become depolarised.",
         "instruction": "Next"
       },
       {
@@ -3674,7 +3675,7 @@
         "_items": [
           {
             "title": "",
-            "body": "As the action potential reaches the axon terminal the membrane is depolarised, and voltage-gated sodium channels are opened. This depolarisation also causes voltage-gated calcium (Ca2+) channels to open.<br>The calcium ions that enter the cell cause the synaptic vesicles to bind to the presynaptic membrane. This allows for the neurotransmitters to be released into the synaptic cleft.",
+            "body": "As the action potential reaches the axon terminal the membrane is depolarised, and voltage-gated sodium channels are opened. This depolarisation also causes voltage-gated calcium (Ca<sup>2+</sup>) channels to open.<br>The calcium ions that enter the cell cause the synaptic vesicles to bind to the presynaptic membrane. This allows for the neurotransmitters to be released into the synaptic cleft.",
             "_graphic": {
               "alt": "",
               "large": "",
@@ -4099,7 +4100,7 @@
     "displayTitle": "<span class='title'>Sensory System</span>",
     "body": "The sensory system is a part of the nervous system responsible for processing sensory information.<br><br>The sensory system responds to information from the external environment as well as the internal environment of our bodies. The stimuli that are received from varying sources and of different types, are converted into electrochemical signals in the nervous system. The stimulus causes the receptor to produce an action potential, which is relayed to the CNS, interpreted and the appropriate response generated.<br><br>It is important to make the distinction between sensation and perception.",
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     },
     "instruction": ""
   },
@@ -4122,7 +4123,7 @@
           "src": "course/en/images/M1/m3_card_5.jpg",
           "alt": "Sensation"
         },
-        "backTitle": "Sensation",
+        "backTitle": "",
         "backBody": "Sensation is the activation of sensory receptors at the level of stimulus."
       },
       {
@@ -4130,7 +4131,7 @@
           "src": "course/en/images/M1/m3_card_4.png",
           "alt": "Perception"
         },
-        "backTitle": "Perception",
+        "backTitle": "",
         "backBody": "Perception is the central processing of sensory stimuli into a meaningful pattern."
       }
     ],
@@ -4790,7 +4791,7 @@
     "_parentId": "b-430",
     "_type": "component",
     "_component": "flowItems",
-    "_classes": "",
+    "_classes": "figma-sub",
     "_layout": "full",
     "title": "Pain Fibres",
     "displayTitle": "<span class='sub-title'>Pain Fibres</span>",
@@ -5056,7 +5057,7 @@
           "alt": "Neuropathic"
         },
         "backTitle": "Neuropathic",
-        "backBody": "<ul><li>Dysfunction or damage to central or peripheral nervous system:<ul><li>Brain or spinal cord.</li><li>Peripheral nerves.</li></ul></li><li>Caused by:<ul><li>Pressure on a specific nerve.</li><li>Nerve damage due to disease such as diabetes mellitus.</li></ul></li><li>CNS does not properly transmit/interpret pain signals.</li></ul>"
+        "backBody": "<ul><li>Dysfunction or damage to central or peripheral nervous system:<ul><li>Brain or spinal cord.</li><li>Peripheral nerves.</li></ul></li><li>Caused by:<ul><li>Pressure on a specific nerve.</li><li>Nerve damage due to disease such as diabetes mellitus.</li><li>CNS does not properly transmit/interpret pain signals.</li></ul></li></ul>"
       }
     ],
     "_pageLevelProgress": {
@@ -5849,7 +5850,7 @@
     "_layout": "left",
     "title": "Question 7",
     "displayTitle": "Question 7",
-    "body": "True or False. An individual neuron typically releases and responds several types of neurotransmitters.",
+    "body": "An individual neuron typically releases and responds several types of neurotransmitters.",
     "instruction": "Select True or False and submit your response.",
     "ariaQuestion": "Select True or False and submit your response.",
     "_attempts": 1,
@@ -5922,7 +5923,7 @@
     "_layout": "left",
     "title": "Question 8",
     "displayTitle": "Question 8",
-    "body": "True or False. Pain signals only actual injury to the body.",
+    "body": "Pain signals only actual injury to the body.",
     "instruction": "Select True or False and submit your response.",
     "ariaQuestion": "Select True or False and submit your response.",
     "_attempts": 1,
@@ -6072,7 +6073,7 @@
     "_layout": "left",
     "title": "Question 10",
     "displayTitle": "Question 10",
-    "body": "True or False. Anaesthetics temporarily block sensory signals from travelling between the site of pain and the brain.",
+    "body": "Anaesthetics temporarily block sensory signals from travelling between the site of pain and the brain.",
     "instruction": "Select True or False and submit your response.",
     "ariaQuestion": "Select True or False and submit your response.",
     "_attempts": 1,
@@ -6220,7 +6221,7 @@
     "_classes": "",
     "_layout": "right",
     "title": "Topical Anaesthesia",
-    "displayTitle": "<span class='title'>TOPICAL ANAESTHESIA</span>",
+    "displayTitle": "",
     "body": "Topical anaesthesia is defined as the superficial loss of sensation in conjunctiva, mucous membranes or skin produced by the direct application of local anaesthetic solutions, ointments, gels or sprays. It allows for anaesthesia without the use of injections and the associated needle anxiety and tissue oedema.<br><br>Topical anaesthesia is widely used in various medical procedures including ophthalmology, dentistry and aesthetic surgery.",
     "instruction": "",
     "_pageLevelProgress": {
@@ -6433,11 +6434,11 @@
         "_items": [
           {
             "title": "",
-            "body": "There are three ways in which the anaesthetic can cross the stratum corneum:<ul><li>Intracellular route – through the spaces between the cornified keratinocytes.</li><li>Para or transcellular route – through the cornified keratinocytes.</li><li>Trans appendageal route (shunt pathway) – through the openings of the hair follicles and sweat glands.</li></ul>",
+            "body": "There are three ways in which the anaesthetic can cross the stratum corneum:<ul><li>Intracellular route – through the spaces between the cornified keratinocytes.</li><li>Para or transcellular route – through the cornified keratinocytes.</li><li>Trans appendageal route (shunt pathway) – through the openings of the hair follicles and sweat glands.</li></ul><img class='rt-flow-img' src='course/en/images/M2/u4_skin_penetration_routes.png' alt='Skin penetration routes of local anaesthesia'>",
             "_graphic": {
               "alt": "",
-              "large": "course/en/images/M2/u4_skin_penetration_routes.png",
-              "small": "course/en/images/M2/u4_skin_penetration_routes.png"
+              "large": "",
+              "small": ""
             }
           }
         ]
@@ -6467,7 +6468,7 @@
           "alt": ""
         },
         "backTitle": "",
-        "backBody": "Drug form – free bases penetrate the stratum corneum better than the salt form, which will require a specialised delivery method."
+        "backBody": "<b>Drug form</b> – free bases penetrate the stratum corneum better than the salt form, which will require a specialised delivery method."
       },
       {
         "frontImage": {
@@ -6475,7 +6476,7 @@
           "alt": ""
         },
         "backTitle": "",
-        "backBody": "Melting point and eutectic mixtures – the lower the melting point, the better the penetration. A eutectic mixture has a lower melting point than either component on its own, which improves penetration."
+        "backBody": "<b>Melting point and eutectic mixtures</b> – the lower the melting point, the better the penetration. A eutectic mixture has a lower melting point than either component on its own, which improves penetration."
       },
       {
         "frontImage": {
@@ -6483,7 +6484,7 @@
           "alt": ""
         },
         "backTitle": "",
-        "backBody": "Drug concentration – a higher concentration of drug relates to a higher rate of penetration."
+        "backBody": "<b>Drug concentration</b> – a higher concentration of drug relates to a higher rate of penetration."
       },
       {
         "frontImage": {
@@ -6491,7 +6492,7 @@
           "alt": ""
         },
         "backTitle": "",
-        "backBody": "Skin permeation enhancers – compounds which increase skin permeability, temporarily and reversibly."
+        "backBody": "<b>Skin permeation enhancers</b> – compounds which increase skin permeability, temporarily and reversibly."
       }
     ],
     "_pageLevelProgress": {
@@ -6589,8 +6590,7 @@
     "body": "<br>Local anaesthetics provide a reversible loss of sensation and reduce pain to facilitate surgical procedures. Local anaesthetic agents are used for topical anaesthesia. These local anaesthetics are weak bases and are made up of three important structures:<ul><li>Aromatic ring.</li><li>Intermediate ester or amide chain.</li><li>Tertiary amine.</li></ul>",
     "instruction": "",
     "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -6605,9 +6605,9 @@
     "body": "",
     "instruction": "",
     "_graphic": {
-      "src": "course/en/images/M2/u4_local_anaesthetic_structure.jpeg",
+      "src": "course/en/images/M2/u4_local_anaesthetic_structure.jpg",
       "alt": "",
-      "attribution": "Basic chemical structure of local anaesthetic agents."
+      "attribution": "Basic chemical structure of local anaesthetic agents"
     }
   },
   {
@@ -7303,7 +7303,7 @@
     "_classes": "",
     "_layout": "left",
     "title": "EMLA",
-    "displayTitle": "<span class='title'>EMLA</span><br><br><span class='sub-title'>Overview</span>",
+    "displayTitle": "",
     "body": "<br><span data-title='<b>EMLA</b> - Eutectic Mixture of Local Anaesthetic' data-rel='tooltip' style='color:#11adef;text-decoration: underline;'' onmouseenter='tooltip.call(this)'>EMLA</span> (eutectic mixture of local anaesthetics) is available as a cream and a patch. The EMLA emulsion is an oil-in-water emulsion system in which the oil phase consists of a eutectic mixture of the base forms of lidocaine and prilocaine in a 1:1 ratio.<br><br>A eutectic mixture is defined as a mixture of two or more substances that usually do not interact to form a new chemical compound but, at certain ratios, inhibit the crystallisation process of one another and so form a new compound with a lower melting point than any of the individual components.",
     "instruction": "",
     "_pageLevelProgress": {
@@ -7516,7 +7516,7 @@
     "_graphic": {
       "src": "course/en/images/M2/block_150.jpg",
       "alt": "",
-      "attribution": "The molecular arrangement in EMLA increases the penetration efficacy by 5X that of a eutectic oil."
+      "attribution": "The molecular arrangement in EMLA increases the penetration efficacy by 5X that of a eutectic oil"
     }
   },
   {
@@ -7753,7 +7753,7 @@
     "_layout": "left",
     "title": "Question 1",
     "displayTitle": "Question 1",
-    "body": "True or False. Anaesthetics temporarily block sensory signals from travelling between the site of pain and the brain.",
+    "body": "Anaesthetics temporarily block sensory signals from travelling between the site of pain and the brain.",
     "instruction": "Select True or False and submit your response.",
     "ariaQuestion": "Select True or False and submit your response.",
     "_attempts": 1,
@@ -10882,61 +10882,13 @@
     "_id": "c-m3-300",
     "_parentId": "b-m3-230",
     "_type": "component",
-    "_component": "flowItems",
+    "_component": "text",
     "_classes": "",
     "_layout": "full",
     "title": "Venous Ulcer Debridement",
     "displayTitle": "<span class='title'>VENOUS ULCER DEBRIDEMENT</span>",
-    "body": "Venous leg ulcers are chronic wounds that are caused by prolonged venous insufficiency. These ulcers develop because of poor blood flow in the veins, leading to tissue breakdown. This primarily affects the lower extremities. Over time patients may develop infections and experience delayed healing and disability.<br><img src='course/en/images/M3/flow_2.jpg'><br><span style='font-size:.75em'>Venous ulcer – before and after surgical debridement.</span>",
-    "instruction": "Select Continue to open the remaining text. ",
-    "_setCompletionOn": "allItems",
-    "_isSequential": true,
-    "_isAutoScroll": false,
-    "_scrollDuration": 500,
-    "_scrollOffsetTop": 0,
-    "_buttons": {
-      "_next": {
-        "text": "Continue",
-        "ariaLabel": "Select here to move to the next.",
-        "_icon": {
-          "src": "",
-          "_classes": "",
-          "alt": ""
-        }
-      },
-      "_end": {
-        "text": "Restart",
-        "ariaLabel": "Select here to restart.",
-        "_icon": {
-          "src": "",
-          "_classes": "",
-          "alt": ""
-        }
-      }
-    },
-    "_items": [
-      {
-        "title": "",
-        "body": "There is no specific staging instrument for venous leg ulcers, but the clinical, etiology, anatomy, physiology (CEAP) classification is often used in patients with chronic venous insufficiency.",
-        "_graphic": {
-          "alt": "",
-          "large": "",
-          "small": ""
-        },
-        "_classes": "",
-        "_items": [
-          {
-            "title": "",
-            "body": "CEAP Classification.",
-            "_graphic": {
-              "large": "course/en/images/M3/flow_5.png",
-              "small": "",
-              "src": "course/en/images/M3/flow_5.png"
-            }
-          }
-        ]
-      }
-    ],
+    "body": "Venous leg ulcers are chronic wounds that are caused by prolonged venous insufficiency. These ulcers develop because of poor blood flow in the veins, leading to tissue breakdown. This primarily affects the lower extremities. Over time patients may develop infections and experience delayed healing and disability.<br><img src='course/en/images/M3/flow_2.jpg'><br><b class='inline-caption'>Venous ulcer – before and after surgical debridement</b><br><br>There is no specific staging instrument for venous leg ulcers, but the clinical, etiology, anatomy, physiology (CEAP) classification is often used in patients with chronic venous insufficiency.<br><img src='course/en/images/M3/flow_5.png' alt='CEAP classification'><br><b class='inline-caption'>CEAP Classification</b>",
+    "instruction": "",
     "_pageLevelProgress": {
       "_isEnabled": true
     }
@@ -11597,7 +11549,7 @@
     "_parentId": "b-m3-305",
     "_type": "component",
     "_component": "sliderItems",
-    "_classes": "m3_slider_items",
+    "_classes": "m3_slider_items slider-equal-items slider-align-img",
     "_layout": "full",
     "title": "",
     "displayTitle": "",
@@ -12293,7 +12245,7 @@
       },
       {
         "title": "Adults",
-        "body": "<ul><li>One or more patches are applied to selected skin area/areas.</li><li>Minimum application time: 1 hour</li><li>After a longer application time than 5 hours the anaesthesia decreases.</li><li>In the event of any allergic reaction, remove patch immediately.</li></ul>",
+        "body": "<ul><li>One or more patches are applied to selected skin area/areas</li><li>Minimum application time: 1 hour</li><li>After a longer application time than 5 hours the anaesthesia decreases</li><li>In the event of any allergic reaction, remove patch immediately</li></ul>",
         "_imageAlignment": "left",
         "_graphic": {
           "src": "",
@@ -12315,7 +12267,7 @@
     "_classes": "bg-white figma-dosing",
     "_layout": "full",
     "title": "Adults and adolescents 12 years of age and above.",
-    "displayTitle": "<span class='figma-h2'>Dosing and Directions: EMLA Cream</span><span class='figma-subhead figma-underline'>Adults and adolescents 12 years of age and above.</span>",
+    "displayTitle": "<span class='figma-h2'>Dosing and Directions: EMLA Cream</span><span class='figma-subhead figma-underline'>Adults and adolescents 12 years of age and above</span>",
     "body": "<br><table class='dosing-table dosing-table--adult'><thead><tr class='dosing-head'><th>Indication / procedure</th><th>Dosage and application time</th></tr></thead><tbody><tr class='dosing-section'><th colspan='2'>Skin</th></tr><tr><td><b>General</b></td><td><ul><li>A thick layer of cream should be applied to the skin under an occlusive dressing.</li><li>For application to larger areas an elastic bandage should be applied on top of the occlusive dressing.</li><li>In the presence of atopic dermatitis, the application time should be reduced.</li></ul></td></tr><tr><td>Minor procedures e.g., needle insertion and surgical treatment of localised lesions</td><td><ul><li>2 g (Approx. half a 5g tube) or approx. 1.5 g/10 cm<sup>2</sup>.</li><li>1–5 hours.</li></ul></td></tr><tr><td>Dermal procedures on newly shaven skin of large body areas, e.g., laser hair removal&nbsp;(self-application)</td><td><ul><li>Maximum dose: 60mg.</li><li>Maximum treatment area: 600 cm<sup>2</sup>.</li><li>Minimum 1 hour, maximum 5 hours.</li></ul></td></tr><tr><td>Dermal procedures on larger areas in a hospital setting, e.g., split-skin grafting.</td><td><ul><li>Approx. 1.5 to 2 g/10 cm<sup>2</sup></li><li>Minimum of 2 hours, maximum 5 hours.</li></ul></td></tr><tr><td>Skin of male genital organs:</td><td><ul><li>Prior to injection of local anaesthetics</li><li>1g / 10 cm<sup>2</sup> for 15 minutes.</li></ul></td></tr><tr><td>Skin of female genital organs:</td><td><ul><li>Prior to injection of local anaesthetics</li><li>1–2 g/10 cm<sup>2</sup> for 60 minutes.</li></ul></td></tr><tr class='dosing-section'><th colspan='2'>Genital mucosa</th></tr><tr><td>Surgical treatment of localised lesions, e.g., removal of genital warts (condylomata acuminata) and prior to injection of local anaesthetics.</td><td><ul><li>Approx. 5–10 g EMLA for 5–10 minutes.</li><li>No occlusive dressing is required.</li><li>Commence procedure immediately thereafter.</li></ul></td></tr><tr><td>Prior to cervical curettage</td><td><ul><li>10g in the lateral vaginal fornices for 10 minutes.</li></ul></td></tr></tbody></table>",
     "instruction": "",
     "_pageLevelProgress": {
@@ -12330,8 +12282,8 @@
     "_component": "text",
     "_classes": "bg-white figma-dosing",
     "_layout": "full",
-    "title": "Paediatric patients: 0 – 11 years old.",
-    "displayTitle": "<span class='sub-title'>Paediatric patients: 0 – 11 years old.</span>",
+    "title": "Paediatric patients: 0 – 11 years old",
+    "displayTitle": "<span class='sub-title'>Paediatric patients: 0 – 11 years old</span>",
     "body": "<br>Safety and efficacy for the use of EMLA Cream on genital skin and genital mucosa have not been established in children younger than 12 years.<br><br><table class='dosing-table dosing-table--child'><thead><tr class='dosing-head'><th>Age group</th><th>Procedure</th><th>Dosage and application time</th></tr></thead><tbody><tr><td></td><td>Minor procedures, e.g., needle insertion and surgical treatment of localised lesions.</td><td><ul><li>Approx. 1.0 g/10 cm<sup>2</sup>.</li><li>Application time: approx. 1 hour</li></ul></td></tr><tr><td><b>Newborn infants and<br>infants 0 – 2 months</b></td><td></td><td><ul><li>Up to 1.0 g and 10 cm<sup>2</sup>.</li><li>1 hour.</li></ul></td></tr><tr><td><b>Infants 3 – 11 months</b></td><td></td><td><ul><li>Up to 2.0 g and 20 cm<sup>2</sup>.</li><li>1 hour.</li></ul></td></tr><tr><td><b>Toddlers and children<br>1 – 5 years</b></td><td></td><td><ul><li>Up to 10,0 g and 100 cm<sup>2</sup>.</li><li>Minimum of 1 hour, maximum 5 hours.</li></ul></td></tr><tr><td><b>Children 6 – 11 years</b></td><td></td><td><ul><li>Up to 20,0 g and 200 cm<sup>2</sup>.</li><li>Minimum of 1 hour, maximum 5 hours.</li></ul></td></tr><tr><td><b>Paediatric patients with atopic dermatitis</b></td><td>Prior to removal of mollusca</td><td><ul><li>Application time: 30 minutes.</li></ul></td></tr></tbody></table>",
     "instruction": "",
     "_pageLevelProgress": {
@@ -12500,7 +12452,7 @@
       }
     ],
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {
@@ -12508,7 +12460,7 @@
     "_parentId": "b-u5-02",
     "_type": "component",
     "_component": "flowItems",
-    "_classes": "",
+    "_classes": "rt-flow-img-half",
     "_layout": "full",
     "title": "Paediatric patients",
     "displayTitle": "<span class='ovestin'>Paediatric patients</span>",
@@ -12605,7 +12557,7 @@
       }
     ],
     "_pageLevelProgress": {
-      "_isEnabled": false
+      "_isEnabled": true
     }
   },
   {

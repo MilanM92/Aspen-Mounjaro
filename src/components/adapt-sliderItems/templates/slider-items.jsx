@@ -31,9 +31,9 @@ export default function slideritems({
             value={_activeIndex}
             aria-valuenow={_activeIndex}
             aria-valuetext={itemActive ? itemActive.get('title') : ''}
-            onChange={onSliderChange}
-            list={`slider-input-data-${_id}`}>
+            onChange={onSliderChange}>
           </input>
+          {/* EMLA (RT 1281312): the input no longer has a `list` attribute – linking this datalist made the browser draw stray tick marks under the track */}
           <datalist id={`slider-input-data-${_id}`}>
             {_items.map(({ _index, title }, index) => (
               <option className={_activeIndex === _index ? 'is-active' : ''} key={index} value={_index}> {title}</option>
