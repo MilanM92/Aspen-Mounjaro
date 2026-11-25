@@ -5,36 +5,11 @@
     "_type": "page",
     "_classes": "",
     "_htmlClasses": "",
-    "title": "BASIC SCIENCES - PART 1",
-    "displayTitle": "Basic sciences - part 1<span style='color:transparent;display:block;height:1.2em'></span><p class='module_name'>Module 1</p>",
+    "title": "Therapeutic Areas",
+    "displayTitle": "<span class='mj-menu-title'>Therapeutic areas</span><span style='color:transparent;display:block;height:1.2em'></span><p class='module_name'>Module 1</p>",
     "body": "",
     "pageBody": "",
     "instruction": "",
-    "_graphic": {
-      "src": "",
-      "alt": ""
-    },
-    "linkText": "View",
-    "duration": "60 minutes",
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_showPageCompletion": false,
-      "_excludeAssessments": false,
-      "_isCompletionIndicatorEnabled": false
-    }
-  },
-  {
-    "_id": "co-15",
-    "_parentId": "course",
-    "_type": "page",
-    "_classes": "",
-    "_htmlClasses": "",
-    "title": "BASIC SCIENCES - PART 2",
-    "displayTitle": "Basic sciences - part 2<span style='color:transparent;display:block;height:1.2em'></span><p class='module_name'>Module 1</p> ",
-    "body": "",
-    "pageBody": "",
-    "instruction": "",
-    "additional_text": " ",
     "_graphic": {
       "src": "",
       "alt": ""
@@ -49,48 +24,22 @@
     }
   },
   {
-    "_id": "co-25",
-    "_parentId": "course",
-    "_type": "page",
-    "_classes": "",
-    "_htmlClasses": "",
-    "title": " BASIC SCIENCES - PART 3",
-    "displayTitle": "Basic sciences - part 3<span style='color:transparent;display:block;height:1.2em'></span><p class='module_name'>Module 1</p>",
-    "body": "",
-    "pageBody": "",
-    "instruction": "",
-    "additional_text": " ",
-    "_graphic": {
-      "src": "",
-      "alt": ""
-    },
-    "linkText": "View",
-    "duration": "40 minutes",
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_showPageCompletion": false,
-      "_excludeAssessments": false,
-      "_isCompletionIndicatorEnabled": false
-    }
-  },
-  {
-    "_id": "co-30",
+    "_id": "co-10",
     "_parentId": "course",
     "_type": "page",
     "_classes": "assesment",
     "_htmlClasses": "",
-    "title": " ",
+    "title": "",
     "displayTitle": "",
     "body": "",
     "pageBody": "",
     "instruction": "",
-    "additional_text": " ",
     "_graphic": {
       "src": "",
       "alt": ""
     },
     "linkText": "View",
-    "duration": "40 minutes",
+    "duration": "",
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": false,
@@ -104,8 +53,8 @@
     "_type": "page",
     "_classes": "",
     "_htmlClasses": "",
-    "title": "Module 2: Pathophysiology",
-    "displayTitle": "Pathophysiology<span style='color:transparent;display:block;height:1.2em'></span><p class='module_name'>Module 2</p>",
+    "title": "Treatment Landscape",
+    "displayTitle": "<span class='mj-menu-title'>Treatment landscape</span><span style='color:transparent;display:block;height:1.2em'></span><p class='module_name'>Module 2</p>",
     "body": "",
     "pageBody": "",
     "instruction": "",
@@ -114,7 +63,7 @@
       "alt": ""
     },
     "linkText": "View",
-    "duration": "20 minutes",
+    "duration": "10 minutes",
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": false,
@@ -138,7 +87,7 @@
       "alt": ""
     },
     "linkText": "View",
-    "duration": "20 minutes",
+    "duration": "",
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": false,
@@ -152,8 +101,8 @@
     "_type": "page",
     "_classes": "",
     "_htmlClasses": "",
-    "title": "Module 3: Treatment Pathway",
-    "displayTitle": "Treatment Pathway<span style='color:transparent;display:block;height:1.2em'></span><p class='module_name'>Module 3</p>",
+    "title": "Tirzepatide (Solution for Injection)",
+    "displayTitle": "<span class='mj-menu-title'>Tirzepatide (solution for injection)</span><span style='color:transparent;display:block;height:1.2em'></span><p class='module_name'>Module 3</p>",
     "body": "",
     "pageBody": "",
     "instruction": "",
@@ -162,7 +111,7 @@
       "alt": ""
     },
     "linkText": "View",
-    "duration": "40 minutes",
+    "duration": "30 minutes",
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": false,
@@ -186,7 +135,7 @@
       "alt": ""
     },
     "linkText": "View",
-    "duration": "40 minutes",
+    "duration": "",
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": false,

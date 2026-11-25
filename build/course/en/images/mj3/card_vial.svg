@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'>
+  <rect width='900' height='600' fill='#EBF7FB'/>
+  <circle cx='760' cy='90' r='150' fill='#d6effa'/>
+  
+  <rect x='395' y='95' width='110' height='45' rx='8' fill='#11ADEF'/>
+  <rect x='410' y='138' width='80' height='30' fill='#003689'/>
+  <path d='M380 168h140v260a24 24 0 0 1-24 24h-92a24 24 0 0 1-24-24z' fill='#fff' stroke='#003689' stroke-width='8'/>
+  <rect x='392' y='300' width='116' height='140' rx='14' fill='#d6effa'/>
+  <rect x='392' y='220' width='116' height='54' fill='#003689'/>
+  <text x='450' y='540' text-anchor='middle' font-family='Inter, Arial, sans-serif' font-size='40' font-weight='700' fill='#003689'>Single-dose vial</text>
+</svg>

@@ -35,10 +35,8 @@ class AssessmentResultsView extends ComponentView {
     duration: 300,
    })
    
-   /*add marking after review*/
-   $(".a-35").removeClass('no-marking');
-   $(".a-m2-25").removeClass('no-marking');
-   $(".a-m3-25").removeClass('no-marking');
+   /*add marking after review – on this results component's own assessment article (was hard-coded to the EMLA ids a-35 / a-m2-25 / a-m3-25)*/
+   $(`.${state.articleId}`).removeClass('no-marking');
 
     if (state._attemptsLeft)
       $('.results-retry').removeClass('display-none')

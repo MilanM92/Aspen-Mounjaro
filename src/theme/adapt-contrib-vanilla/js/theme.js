@@ -13,6 +13,24 @@ class Theme extends Backbone.Controller {
       'pageView:postRender articleView:postRender blockView:postRender componentView:postRender': this.onPostRender
     });
     this.setUpZoom();
+    this.setUpTables();
+  }
+
+  // MOUNJARO: tables written into text component bodies (see _work/mounjaro/build_course.js).
+  // - .mj-coltoggle checkboxes show/hide the table column with the same data-col (collapsible columns)
+  // - .mj-rtable__btn reveals the value in its row (complication prevalence table)
+  setUpTables() {
+    $(document)
+      .on('change', '.mj-coltoggle input[data-col]', e => {
+        const input = e.currentTarget;
+        const $table = $(input).closest('.component__body, .component__inner').find('table.mj-ctable').first();
+        $table.find(`[data-col="${input.getAttribute('data-col')}"]`).toggleClass('is-col-hidden', !input.checked);
+      })
+      .on('click', '.mj-rtable__btn', e => {
+        const $row = $(e.currentTarget).closest('tr');
+        $row.addClass('is-revealed');
+        e.currentTarget.setAttribute('aria-expanded', 'true');
+      });
   }
 
   // EMLA (RT 1279982): images in a component with the class "rt-zoomable" open full size in a layer

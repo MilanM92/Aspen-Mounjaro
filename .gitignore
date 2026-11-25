@@ -1,4 +1,4 @@
-# EMLA course repo: full project incl. src (course, theme, components, extensions) and build output.
+# MOUNJARO course repo (Aspen, M1–M3): full project incl. src (course, theme, components, extensions) and build output.
 node_modules
 bower_components
 .DS_Store

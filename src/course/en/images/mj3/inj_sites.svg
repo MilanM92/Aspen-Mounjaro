@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'><circle cx='120' cy='120' r='116' fill='#EBF7FB'/>
+  <circle cx='120' cy='52' r='18' fill='#003689'/>
+  <path d='M90 78h60l10 64h-16l-4 74h-16l-4-58-4 58h-16l-4-74H80z' fill='#003689'/>
+  <path d='M90 82l-22 54M150 82l22 54' stroke='#003689' stroke-width='12' stroke-linecap='round'/>
+  <circle cx='120' cy='122' r='9' fill='#11ADEF'/><circle cx='108' cy='176' r='8' fill='#11ADEF'/><circle cx='132' cy='176' r='8' fill='#11ADEF'/><circle cx='76' cy='112' r='8' fill='#DA291C'/><circle cx='164' cy='112' r='8' fill='#DA291C'/></svg>

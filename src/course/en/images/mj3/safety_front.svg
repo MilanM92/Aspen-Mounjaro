@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1120' height='448' viewBox='0 0 1120 448'>
+  <rect width='1120' height='448' fill='#EBF7FB'/>
+  <circle cx='980' cy='70' r='170' fill='#d6effa'/>
+  <circle cx='120' cy='420' r='120' fill='#d6effa'/>
+  <g transform='translate(400 84)'>
+    <path d='M110 0 L210 38 V126 C210 196 166 248 110 280 C54 248 10 196 10 126 V38 Z' fill='#003689'/>
+    <path d='M110 26 L186 55 V126 C186 180 154 220 110 248 C66 220 34 180 34 126 V55 Z' fill='#fff'/>
+    <rect x='98' y='72' width='24' height='94' rx='12' fill='#DA291C'/>
+    <circle cx='110' cy='196' r='15' fill='#DA291C'/>
+  </g>
+  <text x='650' y='218' font-family='Inter, Arial, sans-serif' font-size='58' font-weight='700' fill='#003689'>Safety</text>
+  <text x='652' y='268' font-family='Inter, Arial, sans-serif' font-size='26' fill='#11326B'>Select to see the safety findings</text>
+</svg>

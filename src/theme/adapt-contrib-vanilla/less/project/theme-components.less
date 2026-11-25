@@ -875,7 +875,8 @@ input[type="range"]::-webkit-slider-thumb{
 }
 
 
-.c-001.is-complete .item__state .icon:before{
+// Disclaimer checkbox tick: keyed on the component type, not on one component id (was .c-001 in EMLA)
+.textconfirmation.is-complete .item__state .icon:before{
   content: '\e944';
   color: white;
   background-color: @lightBlue;
